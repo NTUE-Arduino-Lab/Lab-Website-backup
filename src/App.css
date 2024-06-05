@@ -1,0 +1,808 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: 'GenSenRounded TW';
+  src: url('./font/ttc/GenSenRounded-M.ttc') format("truetype"),
+    url('./font/woff/GenSenRoundedTW-M-01.woff') format("woff");
+}
+
+@font-face {
+  font-family: 'GenSenRounded B';
+  src: url('./font/ttc/GenSenRounded-B.ttc') format("truetype"),
+    url('./font/woff/GenSenRoundedTW-B-01.woff') format("woff");
+
+}
+
+@font-face {
+  font-family: 'GenSenRounded EL';
+  src: url('./font/ttc/GenSenRounded-EL.ttc') format("truetype"),
+    url('./font/woff/GenSenRoundedTW-EL-01.woff') format("woff");
+}
+
+
+@font-face {
+  font-family: 'GenSenRounded H';
+  src: url('./font/ttc/GenSenRounded-H.ttc') format("truetype"),
+    url('./font/woff/GenSenRoundedTW-H-01.woff') format("woff");
+}
+
+@font-face {
+  font-family: 'GenSenRounded L';
+  src: url('./font/ttc/GenSenRounded-L.ttc') format("truetype"),
+    url('./font/woff/GenSenRoundedTW-L-01.woff') format("woff");
+}
+
+@font-face {
+  font-family: 'GenSenRounded M';
+  src: url('./font/ttc/GenSenRounded-M.ttc') format("truetype"),
+    url('./font/woff/GenSenRoundedTW-M-01.woff') format("woff");
+}
+
+@font-face {
+  font-family: 'GenSenRounded R';
+  src: url('./font/ttc/GenSenRounded-R.ttc') format("truetype"),
+    url('./font/woff/GenSenRoundedTW-R-01.woff') format("woff");
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header {
+  display: flex;
+  height: 56px;
+  /* 设置高度为56px */
+  margin: 0 auto;
+  padding: 4px 20px 4px 40px;
+  /* 上右下左的内边距 */
+  justify-content: space-between;
+  /* 两端对齐 */
+  align-items: center;
+  /* 垂直居中 */
+  background-color: #FFF;
+  /* 背景色为白色 */
+  box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 6px 16px 0px rgba(0, 0, 0, 0.08), 0px 3px 6px -4px rgba(0, 0, 0, 0.12);
+  /* 阴影效果 */
+  position: fixed;
+  /* 固定位置 */
+  top: 0;
+  left: 0;
+  right: 0;
+  /* 使header水平居中 */
+  z-index: 1000;
+  /* 确保header在最上层 */
+}
+
+.logo {
+  height: 50px;
+  /* 或任何合适的高度 */
+  width: auto;
+  /* 保持图像的宽高比 */
+  margin-right: auto;
+  /* 确保所有其他元素（比如菜单按钮和链接）被推到右侧 */
+}
+
+.linkButton {
+  font-family: "GenSenRounded B";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  /* 27px */
+  display: flex;
+  padding: 10px 16px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  /* 按钮内部元素的间距 */
+  border-radius: 16px;
+  /* 边框圆角 */
+  background-color: transparent;
+  /* 按钮背景透明 */
+  color: #333;
+  /* 按钮文字颜色 */
+  /*font-size: 16px;*/
+  /* 文字大小 重複設定進行刪除*/
+
+  text-decoration: none;
+  /* 去除下划线 */
+  cursor: pointer;
+  /* 鼠标悬停时显示手形指针 */
+  border: none;
+  /* 无边框样式 */
+}
+
+/* 您可能还需要为按钮添加:hover等伪类来提升用户交互体验 */
+.linkButton:hover {
+  background-color: #f0f0f0;
+  /* 鼠标悬停时的背景色，可以根据实际设计调整 */
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.fixedBox {
+  --translate-x: 0px;
+  /* 定义变量 */
+  position: fixed;
+  left: 0;
+  top: 60%;
+  transform: translateX(var(--translate-x)) translateY(-50%);
+  width: 20px;
+  height: 172px;
+  background-color: #7EC0FC;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 18px;
+  z-index: 100;
+  border-radius: 0px 20px 20px 0px;
+  color: var(--grey-100-ffffff, #FFF);
+  transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+.hideSidebar {
+  --translate-x: -100%;
+  /* 更新变量 */
+}
+
+.links {
+  display: flex;
+  flex-grow: 1;
+  /* 让.links元素填充可用空间 */
+  justify-content: flex-end;
+  /* 让内容靠右对齐 */
+  align-items: center;
+  /* 垂直居中对齐（如果需要的话） */
+  gap: 10px;
+  /* 按钮之间的间隙 */
+}
+
+
+.verticalText {
+  writing-mode: vertical-rl;
+  /* 保持文字直立顯示 */
+  transform: rotate(0deg);
+  /* 確保文字方向正確 */
+  font-family: "GenSenRounded B";
+  /* 設定特定字體 */
+  font-size: 23px;
+  /* 根據Figma設計調整字體大小 */
+  font-style: normal;
+  /* 字體樣式 */
+  font-weight: 700;
+  /* 字體加粗 */
+  line-height: 120%;
+  /* 設定行高 */
+}
+
+.scrollToTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  width: 64px;
+  /* 初始大小 */
+  height: 64px;
+  /* 初始大小 */
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #7EC0FC;
+  /* 初始背景顏色 */
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  /* 平滑過渡效果 */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.03),
+    0 9px 28px rgba(0, 0, 0, 0.05),
+    0 6px 16px rgba(0, 0, 0, 0.08);
+  /* 初始陰影效果 */
+  z-index: 50;
+}
+
+.scrollToTopButton:hover {
+  width: 72px;
+  /* 懸停時的大小變更 */
+  height: 72px;
+  /* 懸停時的大小變更 */
+  background-color: #8CC7FC;
+  /* 懸停時的背景顏色 */
+  bottom: 25px;
+  /* 懸停時的位置變更 */
+  right: 15px;
+  /* 懸停時的位置變更 */
+  box-shadow: 0 15px 29px rgba(0, 0, 0, 0.05),
+    0 12px 24px rgba(0, 0, 0, 0.08),
+    0 9px 14px rgba(0, 0, 0, 0.12);
+  /* 懸停時的陰影效果 */
+}
+
+.scrollToTopButton:active {
+  /* 按钮在按下时的大小稍微减小，以模拟按压效果 */
+  width: 60px;
+  height: 60px;
+  /* 调整位置以保持按钮中心点不变 */
+  bottom: 21px;
+  right: 21px;
+  /* 使用较深的蓝色填充来表示按下状态 */
+  background-color: #6AB0EC;
+  /* 调整 box-shadow 以模拟 SVG 中的阴影效果 */
+  box-shadow:
+    0 5px 12px rgba(0, 0, 0, 0.09),
+    /* 第一层阴影 */
+    0 3px 6px rgba(0, 0, 0, 0.12),
+    /* 第二层阴影 */
+    0 1px 2px rgba(0, 0, 0, 0.16);
+  /* 第三层阴影 */
+  /* 转换效果让按下的反馈看起来更平滑 */
+  transition: all 0.1s ease;
+}
+
+.menuButton {
+  display: none;
+  /* 默认情况下隐藏 */
+  width: 32px;
+  /* 按钮宽度 */
+  height: 32px;
+  /* 按钮高度 */
+  flex-shrink: 0;
+  /* 防止按钮在flex布局中缩小 */
+  background-color: transparent;
+  /* 背景透明 */
+  border: none;
+  /* 无边框 */
+  cursor: pointer;
+  /* 鼠标悬停时显示手形指针 */
+}
+
+footer {
+  background: url(../src/img/footer_bigwave.png)no-repeat top center;
+  background-size: cover;
+  position: relative;
+  padding: 120px 0 80px;
+}
+
+
+
+footer:after {
+  content: "";
+  width: 645px;
+  height: 190px;
+  background: url(../src/img/footer_smwave.png)no-repeat bottom left;
+  background-size: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  max-width: 40%;
+}
+
+.footer-content {
+  max-width: 1120px;
+  display: flex;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.footer_left {
+  display: flex;
+  width: 55%;
+  position: relative;
+}
+
+.footer_left:before {
+  content: "";
+  width: 1px;
+  height: calc(100% - 24px);
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.footer_left .footer_logo img {
+  width: 144px;
+}
+
+.footer_left .footer_text {
+  padding: 45px 60px 45px 40px;
+  text-align: left;
+  color: #fff;
+}
+
+.footer_left .footer_text h3 {
+  font-family: "GenSenRounded M";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  padding: 5px 0;
+  line-height: 1.5;
+}
+
+.footer_left .footer_text p {
+  text-align: left;
+  color: #fff;
+  font-family: "GenSenRounded M";
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.footer_left .footer_text .logoName img {
+  width: 150px;
+}
+
+.footer_left .text_end {
+  text-align: left;
+  color: #fff;
+  padding-top: 30px;
+  font-family: "GenSenRounded M";
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.footer_right {
+  width: 45%;
+  padding-left: 60px;
+}
+
+.footer_right img {
+  width: 100%;
+}
+
+.footer_right ul {
+  color: #fff;
+  text-align: left;
+  font-family: "GenSenRounded M";
+  font-size: 18px;
+  font-style: normal;
+  margin: 0;
+  line-height: 1.5;
+  padding: 12px 0 0;
+}
+
+.footer_right ul li {
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.footer_right ul li.phone,
+.footer_right ul li.addr {
+  padding-left: 22px;
+  position: relative;
+  font-size: 16px;
+}
+
+.footer_right ul li span {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0;
+  top: 4px;
+}
+
+.footer_right ul li .icon_phone {
+  background: url(./img/footer_phone.svg)no-repeat center center;
+  background-size: 100%;
+}
+
+.footer_right ul li .icon_addr {
+  background: url(./img/footer_addr.svg)no-repeat center center;
+  background-size: 100%;
+}
+
+@media (max-width: 1440px) {
+  .fixedBox {
+    width: 14px;
+    height: 120px;
+    font-size: 14px;
+    border-radius: 0px 14px 14px 0px;
+    padding: 24px 8px;
+    background: #7EC0FC;
+  }
+
+  .verticalText {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1240px) {
+  footer {
+    padding: 80px 0 64px;
+  }
+
+  footer:after {
+    width: 340px;
+    height: 100px;
+  }
+
+  .footer-content {
+    width: 100%;
+    padding: 0 40px;
+    max-width: none;
+    align-items: center;
+  }
+
+  .footer_left {
+    padding-top: 0;
+  }
+
+  .footer_left .footer_logo img {
+    width: 88px;
+  }
+
+  .footer_left .footer_text {
+    padding: 20px 45px 20px 25px;
+  }
+
+  .footer_left .footer_text .logoName img {
+    width: 125px;
+  }
+
+  .footer_left .footer_text h3 {
+    font-size: 14px;
+  }
+
+  .footer_left .footer_text p,
+  .footer_left .text_end {
+    font-size: 11px;
+  }
+
+  .footer_right {
+    padding-left: 45px;
+  }
+
+  .footer_right ul {
+    font-size: 13px;
+  }
+
+  .footer_right ul li.phone,
+  .footer_right ul li.addr {
+    font-size: 11px;
+    padding-left: 18px;
+  }
+
+  .footer_right ul li span {
+    width: 12px;
+    height: 12px;
+    top: 2px;
+  }
+
+  .fixedBox {
+    width: 14px;
+    height: 120px;
+    font-size: 14px;
+    border-radius: 0px 14px 14px 0px;
+    padding: 24px 8px;
+    background: #7EC0FC;
+  }
+
+  .verticalText {
+    font-size: 14px;
+  }
+}
+
+
+/* 向左淡出动画 */
+@keyframes fadeOutToLeft {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateX(-50px);
+    /* 增加移动距离以强化效果 */
+  }
+
+  
+
+
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 4px 16px;
+  }
+
+  .links {
+    display: none;
+    /* 默认隐藏 */
+    flex-direction: column;
+    /* 让按钮垂直排列 */
+    background-color: #fff;
+    /* 白色背景 */
+    align-items: flex-start;
+    box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.04), 0px 6px 16px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    /* 绝对定位，使其不影响其他元素的布局 */
+    top: 100%;
+    /* 放在触发元素的正下方 */
+    left: 0;
+    width: 100%;
+    /* 可以根据实际需要调整宽度 */
+    z-index: 100;
+    /* 确保它在其他内容之上 */
+  }
+
+  .links.show {
+    display: flex;
+    padding: 16px 0px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    /* 点击菜单按钮时显示 */
+  }
+
+
+  .linkButton {
+    padding: 5px 10px;
+    font-size: 14px;
+    margin: 2px 1px;
+  }
+
+
+
+  .scrollToTopButton {
+    width: 56px;
+    /* 在小裝置上減小按鈕大小 */
+    height: 56px;
+    /* 在小裝置上減小按鈕大小 */
+    bottom: 24px;
+    /* 在小裝置上調整位置 */
+    right: 24px;
+    /* 在小裝置上調整位置 */
+    padding: 8px;
+    /* 在小裝置上調整内距 */
+    /* 可以考慮調整字型大小、box-shadow 等，依據需要 */
+  }
+
+  .scrollToTopButton:hover {
+    width: 60px;
+    /* 在小裝置上的懸停大小 */
+    height: 60px;
+    /* 在小裝置上的懸停大小 */
+    bottom: 26px;
+    /* 在小裝置上的懸停位置 */
+    right: 24px;
+    /* 在小裝置上的懸停位置 */
+    /* 根據需要調整其他樣式 */
+  }
+
+  .scrollToTopButton:active {
+    width: 48px;
+    /* 在小裝置上的懸停大小 */
+    height: 48px;
+    /* 在小裝置上的懸停大小 */
+    bottom: 26px;
+    /* 在小裝置上的懸停位置 */
+    right: 26px;
+    /* 根據需要調整按下狀態的樣式 */
+  }
+
+  .menuButton {
+    display: block;
+    /* 在小屏幕上显示 */
+    margin-left: auto;
+    /* 靠右对齐 */
+  }
+
+  .links.show {
+    display: flex;
+    /* 确保在RWD模式下展开时是flex布局 */
+  }
+
+  .links {
+    display: none;
+    /* 預設隱藏連結 */
+    flex-direction: column;
+    /* 使連結垂直排列 */
+  }
+
+  .links.show {
+    display: flex;
+    /* 當菜單打開時顯示連結 */
+  }
+
+  .fixedBox {
+    width: 14 px;
+    height: 120px;
+    font-size: 14px;
+    border-radius: 0px 14px 14px 0px;
+    padding: 24px 8px;
+    background: #7EC0FC;
+  }
+
+  .verticalText {
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 80px 0 100px;
+  }
+
+  footer:after {
+    width: 280px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    max-width: 420px;
+  }
+
+  .footer_left:before {
+    display: none;
+  }
+
+  .footer_left {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .footer_left .footer_logo {
+    flex: 0 0 70px;
+  }
+
+  .footer_left .footer_logo img {
+    width: 70px;
+  }
+
+  .footer_left .footer_text {
+    flex: 0 0 calc(100% - 70px);
+    box-sizing: border-box;
+    padding: 0;
+    padding-top: 20px;
+    padding-left: 24px;
+    text-align: justify;
+  }
+
+  .footer_left .text_end {
+    padding-top: 16px;
+    padding-bottom: 8px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .footer_right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer_right img {
+    width: 210px;
+  }
+
+  .footer_right ul,
+  .footer_right ul li.phone,
+  .footer_right ul li.addr {
+    font-size: 11px;
+  }
+
+}
+
+/* 中型裝置（平板） */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+  .linkButton {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+
+
+
+  .scrollToTopButton {
+    width: 64px;
+    /* 在平板上調整按鈕大小 */
+    height: 64px;
+    /* 在平板上調整按鈕大小 */
+    bottom: 15px;
+    /* 在平板上調整位置 */
+    right: 15px;
+    /* 在平板上調整位置 */
+    padding: 9px;
+    /* 在平板上調整内距 */
+
+  }
+
+  .scrollToTopButton:hover {
+    width: 72px;
+    /* 在平板上的懸停大小 */
+    height: 72px;
+    /* 在平板上的懸停大小 */
+    bottom: 20px;
+    /* 在平板上的懸停位置 */
+    right: 10px;
+    /* 在平板上的懸停位置 */
+    /* 根據需要調整其他樣式 */
+  }
+
+  .scrollToTopButton:active {
+    width: 60px;
+    /* 在平板上的懸停大小 */
+    height: 60px;
+    /* 在平板上的懸停大小 */
+    bottom: 20px;
+    /* 在平板上的懸停位置 */
+    right: 20px;
+    /* 在平板上的懸停位置 */
+    /* 根據需要調整其他樣式 */
+  }
+
+  .fixedBox {
+    width: 14px;
+    height: 120px;
+    font-size: 14px;
+    border-radius: 0px 14px 14px 0px;
+    padding: 24px 8px;
+    background: #7EC0FC;
+  }
+
+  .verticalText {
+    font-size: 14px;
+  }
+
+}
+
+
+/* 向右淡入动画 */
+@keyframes fadeInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+    /* 增加移动距离以强化效果 */
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fadeOutToLeft {
+  animation: fadeOutToLeft 0.2s forwards;
+}
+
+.fadeInFromRight {
+  animation: fadeInFromRight 0.2s forwards;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

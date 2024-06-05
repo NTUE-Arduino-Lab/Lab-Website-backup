@@ -1,0 +1,161 @@
+/* .topics_box {
+    background: url(./img/background/Topics_bg.svg)no-repeat center bottom;
+    background-size: cover;
+    padding: 120px 0px 120px 36px;
+} */
+
+.topics_box {
+    background-color: #a7ccef;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2399c2e8' fill-opacity='0.88'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 128px 128px;
+    background-position: center;
+    padding: 128px 0px 128px 36px;
+}
+
+.topics_cards {
+    display: flex;
+    justify-content: center;
+    margin: 0 -12px;
+}
+
+.topics_outer {
+    padding: 0 12px;
+    width: 20%;
+    flex: 1;
+    display: flex;
+    height: 360px;
+}
+
+.topics_card {
+    background: #fff;
+    padding: 24px 36px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 5px 12px 4px rgba(0, 0, 0, 0.09), 0px 3px 6px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px -2px rgba(0, 0, 0, 0.16);
+    transition: all ease-in-out .4s;
+}
+
+.topics_card:hover {
+    transform: translateY(-10px);
+}
+
+.head {
+    color: #171819;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.icon {
+    padding-bottom: 4px;
+}
+
+h4 {
+    margin: 0;
+    /* 標題字體/boldType@18 */
+    font-family: "GenSenRounded B";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 27px */
+}
+
+h6 {
+    margin: 0;
+    /* 內容字體/MediumType@14 */
+    font-family: "GenSenRounded M";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 21px */
+}
+
+p {
+    color: #777A7E;
+    text-align: center;
+    margin: 0;
+    /* 特規字體/領域簡介用 */
+    font-family: "GenSenRounded M";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 215%;
+    /* 29.25px */
+}
+    /* 讓mac對焦pc瀏覽體驗，斷點採用1280px */
+@media (max-width: 1280px) {
+    .topics_box {
+        padding: 100px 0;
+    }
+
+    .topics_cards {
+        flex-direction: column;
+        margin: -12px auto;
+        max-width: 912px;
+    }
+
+    .topics_outer {
+        width: 100%;
+        padding: 12px 0;
+    }
+
+    .topics_card {
+        display: flex;
+        padding: 16px 24px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .head {
+        display: flex;
+        align-items: center;
+        flex: 0 0 160px;
+        padding: 0;
+        text-align: left;
+        padding-right: 12px;
+    }
+
+    .body {
+        flex: 1 0 0;
+    }
+
+    .icon {
+        padding: 0;
+        padding-right: 12px;
+    }
+
+    h6 {
+        font-size: 10px;
+    }
+
+    p {
+        text-align: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .topics_box {
+        padding: 40px 0px 40px 8px;
+
+    }
+    .topics_cards {
+        max-width: 400px;
+    }
+
+    .topics_card {
+        padding: 24px;
+        flex-direction: column;
+    }
+
+    .head {
+        flex: 1 0 0;
+        padding: 0;
+        padding-bottom: 12px;
+    }
+
+    .icon {
+        padding-right: 8px;
+    }
+}

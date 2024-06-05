@@ -1,0 +1,1273 @@
+[
+    [
+        {
+            "year": "92",
+            "id": "9201",
+            "author": "葉哲榮",
+            "title": "以影像偵測做為遊戲操作介面應用於立體擬真運動遊戲之研究",
+            "url": "https://hdl.handle.net/11296/nzk335",
+            "professor1": "吳偉賢",
+            "professor2": "范丙林"
+        },
+        {
+            "year": "92",
+            "id": "9202",
+            "author": "李承泰",
+            "title": "數位遊戲企劃網路學習社群規劃之研究",
+            "url": "https://hdl.handle.net/11296/paenu3",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "92",
+            "id": "9203",
+            "author": "許維哲",
+            "title": "數位遊戲使用者介面設計研究─以行動裝置為例",
+            "url": "https://hdl.handle.net/11296/f67x3d",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "93",
+            "id": "9301",
+            "author": "陳建彰",
+            "title": "預先計算輝度轉換光照技術之研究",
+            "url": "https://hdl.handle.net/11296/xf8f8f",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "93",
+            "id": "9302",
+            "author": "曾銘義",
+            "title": "推演式電腦兵棋系統改良研究",
+            "url": "https://hdl.handle.net/11296/2a8gky",
+            "professor1": "范丙林",
+            "professor2": "林清壽"
+        },
+        {
+            "year": "93",
+            "id": "9303",
+            "author": "鄭志明",
+            "title": "流程圖解譯器開發與研究－以視訊互動式程式與遊戲製作為例",
+            "url": "https://hdl.handle.net/11296/253824",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "93",
+            "id": "9304",
+            "author": "陳思穎",
+            "title": "著色技術在三維即時繪圖環境之研究與應用-以瞳孔適光性模擬為例",
+            "url": "https://hdl.handle.net/11296/u57xhp",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "93",
+            "id": "9305",
+            "author": "蕭雅真",
+            "title": "基於使用者需求之互動設計研究-以GameBike為例",
+            "url": "https://hdl.handle.net/11296/754fk7",
+            "professor1": "游章雄",
+            "professor2": "范丙林"
+        },
+        {
+            "year": "93",
+            "id": "9306",
+            "author": "彭家晨",
+            "title": "數位遊戲之互動式輸入裝置的研究與開發",
+            "url": "https://hdl.handle.net/11296/m29q87",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "94",
+            "id": "9401",
+            "author": "劉姿君",
+            "title": "裸眼式3D立體顯像技術應用設計研究─以互動電子書為例",
+            "url": "https://hdl.handle.net/11296/wvcc9r",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "94",
+            "id": "9402",
+            "author": "吳俊逸",
+            "title": "多點控制技術應用於數位遊戲設計之開發與研究",
+            "url": "https://hdl.handle.net/11296/8pq79h",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "94",
+            "id": "9403",
+            "author": "吳漢障",
+            "title": "數位遊戲設計教學平台之建構-註記系統輔助之實踐",
+            "url": "https://hdl.handle.net/11296/vz4d8a",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "94",
+            "id": "9404",
+            "author": "李崇維",
+            "title": "影像辨識應用於數位遊戲設計之研究--以光線槍裝置為例",
+            "url": "https://hdl.handle.net/11296/64y7xx",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "94",
+            "id": "9405",
+            "author": "林昆聲",
+            "title": "行動客戶端內容服務引擎之二維呈像模組設計與研究–以支援JavaME個人行動裝置為例",
+            "url": "https://hdl.handle.net/11296/fshv6k",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "94",
+            "id": "9406",
+            "author": "涂治安",
+            "title": "人體生理訊號感測應用於數位遊戲設計—以心率變異與皮膚電阻之偵測為例",
+            "url": "https://hdl.handle.net/11296/rdak73",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "94",
+            "id": "9407",
+            "author": "董明欣",
+            "title": "即時手勢辨識應用於視訊互動遊戲控制之研究",
+            "url": "https://hdl.handle.net/11296/xf8f8f",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "94",
+            "id": "9408",
+            "author": "李與誠",
+            "title": "玩家對電視遊戲喜好因素之性別差異研究",
+            "url": "https://hdl.handle.net/11296/z7kksb",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "95",
+            "id": "9501",
+            "author": "陳冠婷",
+            "title": "高互動情境模擬之設計與研究—以互動故事屋設計為例",
+            "url": "https://hdl.handle.net/11296/kg84pc",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "95",
+            "id": "9502",
+            "author": "黃信霖",
+            "title": "三維即時繪圖環境中模組化著色編輯器之開發研究",
+            "url": "https://hdl.handle.net/11296/kg84pc",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "95",
+            "id": "9503",
+            "author": "巫立偉",
+            "title": "應用人體姿勢與重心平衡之體感遊戲研究與設計",
+            "url": "https://hdl.handle.net/11296/b5r7y3",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "95",
+            "id": "9504",
+            "author": "高嬿婷",
+            "title": "多點觸控操作介面之開發與研究-以算算數電腦輔助教學遊戲為例",
+            "url": "https://hdl.handle.net/11296/ug6ce3",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "95",
+            "id": "9505",
+            "author": "陳冠竹",
+            "title": "Flash組件設計發展之研究-以網路廣告遊戲為例",
+            "url": "https://hdl.handle.net/11296/har825",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "95",
+            "id": "9506",
+            "author": "吳孟修",
+            "title": "多圖層色鉛筆濾鏡效果之研究",
+            "url": "https://hdl.handle.net/11296/xevwz6",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "95",
+            "id": "9507",
+            "author": "丁信華",
+            "title": "可參數化之鳥類飛行行為模擬之改良",
+            "url": "https://hdl.handle.net/11296/ha7p64",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "96",
+            "id": "9601",
+            "author": "林奕先",
+            "title": "數位藝術平台圖像溝通設計研究",
+            "url": "https://hdl.handle.net/11296/3bkj6t",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "96",
+            "id": "9602",
+            "author": "蔡艾靜",
+            "title": "互動廣告設計與廣告效果評估",
+            "url": "https://hdl.handle.net/11296/qx67jh",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "96",
+            "id": "9603",
+            "author": "謝宜蓁",
+            "title": "意象圖片轉化於桌上益智遊戲之設計研究－以劉其偉原生時期作品應用為例",
+            "url": "https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=UG6lqd/search?q=auc=%22%E8%AC%9D%E5%AE%9C%E8%93%81%22.&searchmode=basic",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "96",
+            "id": "9604",
+            "author": "郭桐霖",
+            "title": "結合擴增實境技術與物理特性之數位遊戲開發與設計",
+            "url": "https://hdl.handle.net/11296/sj5kwh",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "96",
+            "id": "9605",
+            "author": "薛威明",
+            "title": "即時手勢辨識於數位娛樂設計之研究",
+            "url": "https://hdl.handle.net/11296/m47q6z",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "96",
+            "id": "9606",
+            "author": "施宜君",
+            "title": "風格轉化法應用於數位遊戲角色設計之研究-以新藝術裝飾風格為例",
+            "url": "https://hdl.handle.net/11296/t5zz2x",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "97",
+            "id": "9701",
+            "author": "洪瑋聰",
+            "title": "觸控裝置運用於遊戲式廣告之研究",
+            "url": "https://hdl.handle.net/11296/w356xm",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "97",
+            "id": "9702",
+            "author": "魏子函",
+            "title": "線上註記系統應用與設計─以程式設計課程為例",
+            "url": "https://hdl.handle.net/11296/bu3x4w",
+            "professor1": "范丙林",
+            "professor2": "盧姝如"
+        },
+        {
+            "year": "97",
+            "id": "9703",
+            "author": "陳韋婷",
+            "title": "角色之設計─以丑角為例",
+            "url": "https://hdl.handle.net/11296/m8k2tk",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "97",
+            "id": "9704",
+            "author": "楊蘭詞",
+            "title": "智慧型手機遊戲研發策略之研究",
+            "url": "https://hdl.handle.net/11296/9j4zwj",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "97",
+            "id": "9705",
+            "author": "陳逸軒",
+            "title": "體感操作簡報系統使用性研究",
+            "url": "https://hdl.handle.net/11296/a3dza2",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "97",
+            "id": "9706",
+            "author": "吳其霖",
+            "title": "使用人工生命方法改良電腦遊戲中非玩家角色個體行為之研究",
+            "url": "https://hdl.handle.net/11296/7adse8",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "97",
+            "id": "9707",
+            "author": "蔣丏",
+            "title": "手勢辨識系統於數位遊戲介面設計之應用",
+            "url": "https://hdl.handle.net/11296/4s9v45",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "97",
+            "id": "9708",
+            "author": "廖堉博",
+            "title": "數位遊戲在班級經營上的應用─以獎懲系統設計為例",
+            "url": "https://hdl.handle.net/11296/86khky",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "98",
+            "id": "9801",
+            "author": "廖怡閔",
+            "title": "擴增實境在學習動機提升之研究-以英文拼字為例",
+            "url": "https://hdl.handle.net/11296/4ndq7u",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "98",
+            "id": "9802",
+            "author": "蔡昭甫",
+            "title": "視訊體感介面選單設計研究",
+            "url": "https://hdl.handle.net/11296/y3z425",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "98",
+            "id": "9803",
+            "author": "張簡甯",
+            "title": "體感遊戲開發環境模擬建置－以大型機台為例",
+            "url": "https://hdl.handle.net/11296/4w9r8m",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "98",
+            "id": "9804",
+            "author": "翁靜儀",
+            "title": "音樂體感遊戲機台之設計與使用成效之研究",
+            "url": "https://hdl.handle.net/11296/2py6pp",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "98",
+            "id": "9805",
+            "author": "王瀚國",
+            "title": "要素導向式之遊戲製作教學設計-以UDK工具為例",
+            "url": "https://hdl.handle.net/11296/7ygy5z",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "98",
+            "id": "9806",
+            "author": "張雅婷",
+            "title": "桌上遊戲之轉化與設計-以「從前從前」為例",
+            "url": "https://hdl.handle.net/11296/2vz72q",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "99",
+            "id": "9901",
+            "author": "劉光庭",
+            "title": "虛擬櫥窗之輸入介面設計研究",
+            "url": "https://hdl.handle.net/11296/7d2483",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "99",
+            "id": "9902",
+            "author": "呂晨嫚",
+            "title": "簡易式類無標記擴增實境設計應用研究―以英語會話製作為例",
+            "url": "https://hdl.handle.net/11296/73ynv5",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "99",
+            "id": "9903",
+            "author": "高錫研",
+            "title": "無生命物動畫角色之設計研究",
+            "url": "https://hdl.handle.net/11296/99kbaj",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "99",
+            "id": "9904",
+            "author": "許雅雁",
+            "title": "數位遊戲式輔助教學對八年級學童科學態度和學習動機之影響初探─以「大氣壓力」單元為例",
+            "url": "https://hdl.handle.net/11296/caqj2h",
+            "professor1": "俞齊山",
+            "professor2": "陳圳卿"
+        },
+        {
+            "year": "99",
+            "id": "9905",
+            "author": "鄭依琳",
+            "title": "具深度控制之視訊體感介面選單設計研究─以KTV點歌單為例",
+            "url": "https://hdl.handle.net/11296/b9s56y",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "99",
+            "id": "9906",
+            "author": "唐偉豪",
+            "title": "應用Kinect之互動設計研究-以伴唱系統為例",
+            "url": "https://hdl.handle.net/11296/u6449t",
+            "professor1": "范丙林",
+            "professor2": "王學武"
+        },
+        {
+            "year": "99",
+            "id": "9907",
+            "author": "蕭文祥",
+            "title": "體感格鬥拳擊遊戲對使用者經驗之研究 -以Kinect與Wii Remote為例",
+            "url": "https://hdl.handle.net/11296/8xp3k7",
+            "professor1": "俞齊山",
+            "professor2": "范丙林"
+        },
+        {
+            "year": "99",
+            "id": "9908",
+            "author": "王漢偉",
+            "title": "平台動作解謎遊戲設計流程研究",
+            "url": "https://hdl.handle.net/11296/my237n",
+            "professor1": "俞齊山",
+            "professor2": "范丙林"
+        },
+        {
+            "year": "99",
+            "id": "9909",
+            "author": "林育昇",
+            "title": "簡易式類無標記擴增實境之應用設計",
+            "url": "https://hdl.handle.net/11296/65xej3",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "99",
+            "id": "9910",
+            "author": "巫宗翰",
+            "title": "競速遊戲之人機介面研究",
+            "url": "https://hdl.handle.net/11296/77qjhb",
+            "professor1": "范丙林",
+            "professor2": "吳偉賢"
+        },
+        {
+            "year": "99",
+            "id": "9911",
+            "author": "劉彥鋒",
+            "title": "範例式通用遊戲元素製作之教學設計-以Unity3D為例",
+            "url": "https://hdl.handle.net/11296/s9u83m",
+            "professor1": "吳偉賢",
+            "professor2": "范丙林"
+        },
+        {
+            "year": "99",
+            "id": "9912",
+            "author": "陳彥豪",
+            "title": "基於ADDIE法之數位戲企劃教學設計初探",
+            "url": "https://hdl.handle.net/11296/mjthvq",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "99",
+            "id": "9913",
+            "author": "鄭乃慈",
+            "title": "智慧型手機功能選單設計對使用者操作績效之影響",
+            "url": "https://hdl.handle.net/11296/4qrfuw",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "99",
+            "id": "9914",
+            "author": "張明寬",
+            "title": "類無標記式之擴增實境之設計研究-以英語會話教學為例",
+            "url": "https://hdl.handle.net/11296/4mr5q9",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "99",
+            "id": "9915",
+            "author": "柯閔中",
+            "title": "線上註記系統在輔助教學與學伴推薦的應用研究",
+            "url": "https://hdl.handle.net/11296/6b6xqq",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "99",
+            "id": "9916",
+            "author": "潘嬑薇",
+            "title": "融入台灣意象之文字冒險遊戲研究",
+            "url": "https://hdl.handle.net/11296/3n67ff",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "100",
+            "id": "10001",
+            "author": "張凱鈞",
+            "title": "結合語音辨識與手勢應用於三維物件控制",
+            "url": "https://hdl.handle.net/11296/8b5c85",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "100",
+            "id": "10002",
+            "author": "黃重維",
+            "title": "桌上遊戲應用於理財教育對國中生學習興趣影響之研究",
+            "url": "https://hdl.handle.net/11296/84ejwn",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "100",
+            "id": "10003",
+            "author": "羅雅婷",
+            "title": "結合雲端空間之互動電子書多媒體部件編輯系統",
+            "url": "https://hdl.handle.net/11296/q637a6",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "100",
+            "id": "10004",
+            "author": "簡鈺軒",
+            "title": "語音辨識結合觸控手勢應用於三維物件控制 －以智慧型行動裝置為例",
+            "url": "https://hdl.handle.net/11296/b758jn",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "100",
+            "id": "10005",
+            "author": "吳偉義",
+            "title": "遊戲化的應用－以桌上遊戲教學影片為例",
+            "url": "https://hdl.handle.net/11296/38696h",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "100",
+            "id": "10006",
+            "author": "黃允懷",
+            "title": "中國風格科幻遊戲之美術概念圖設計",
+            "url": "https://hdl.handle.net/11296/874y7h",
+            "professor1": "范丙林",
+            "professor2": "吳偉賢"
+        },
+        {
+            "year": "100",
+            "id": "10007",
+            "author": "張銀軒",
+            "title": "一個腳本語言之單元測試工具－以Unity3D為例",
+            "url": "https://hdl.handle.net/11296/xdvbg4",
+            "professor1": "范丙林",
+            "professor2": "吳偉賢"
+        },
+        {
+            "year": "100",
+            "id": "10008",
+            "author": "黃靖淳",
+            "title": "互動式電子童書介面設計研究－以平板電腦為例",
+            "url": "https://hdl.handle.net/11296/x3vze9",
+            "professor1": "范丙林",
+            "professor2": "吳偉賢"
+        },
+        {
+            "year": "100",
+            "id": "10009",
+            "author": "邱奕撰",
+            "title": "圖像對創造力之激發影響研究－以英雄之旅為例",
+            "url": "https://hdl.handle.net/11296/9f6r25",
+            "professor1": "范丙林",
+            "professor2": "吳偉賢"
+        },
+        {
+            "year": "100",
+            "id": "10010",
+            "author": "蘇昱暘",
+            "title": "設計桌上遊戲做為國小自然科教學輔助工具之研究—以「昆蟲的一生」單元為例",
+            "url": "https://hdl.handle.net/11296/42v3rq",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "100",
+            "id": "10011",
+            "author": "陳彥欽",
+            "title": "以台灣保育動物為主題之桌遊設計創作",
+            "url": "https://hdl.handle.net/11296/2zt5u8",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "101",
+            "id": "10101",
+            "author": "蔡侑儒",
+            "title": "遊戲化於記帳APP的設計應用",
+            "url": "https://hdl.handle.net/11296/dyd782",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "101",
+            "id": "10102",
+            "author": "簡志宇",
+            "title": "科幻風格之《山海經》數位遊戲角色設計研究-以女媧為例",
+            "url": "https://hdl.handle.net/11296/pnpwr7",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "101",
+            "id": "10103",
+            "author": "莊雅智",
+            "title": "以台灣保育類動物為主題之扭蛋商品設計創作",
+            "url": "https://hdl.handle.net/11296/c9qp4e",
+            "professor1": "俞齊山",
+            "professor2": "范丙林"
+        },
+        {
+            "year": "101",
+            "id": "10104",
+            "author": "黃御恩",
+            "title": "電腦輔助教學軟體設計－以英語單字語音辨識為例",
+            "url": "https://hdl.handle.net/11296/j243ay",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "101",
+            "id": "10105",
+            "author": "鄭芸茜",
+            "title": "手繪質感風格之遊戲場景設計",
+            "url": "https://hdl.handle.net/11296/9wmarm",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "101",
+            "id": "10106",
+            "author": "楊佳翰",
+            "title": "語音控制運動技能教學系統設計－以「毽球動作教學系統」為例",
+            "url": "https://hdl.handle.net/11296/6ye98e",
+            "professor1": "范丙林",
+            "professor2": "王學武"
+        },
+        {
+            "year": "101",
+            "id": "10107",
+            "author": "曹新民",
+            "title": "跨平台與動態載入資源的擴展編輯器實作－以Unity3D為例",
+            "url": "https://hdl.handle.net/11296/xnrmyt",
+            "professor1": "范丙林",
+            "professor2": "王學武"
+        },
+        {
+            "year": "101",
+            "id": "10108",
+            "author": "游益智",
+            "title": "電玩遊戲創作與美術設計─以冷武器為例",
+            "url": "https://hdl.handle.net/11296/g8w36h",
+            "professor1": "范丙林",
+            "professor2": ""
+        },
+        {
+            "year": "101",
+            "id": "10109",
+            "author": "鄭尹惠",
+            "title": "使用RWD的跨平台網頁介面設計之使用性研究-以中高齡者為對象",
+            "url": "https://hdl.handle.net/11296/h9vssu",
+            "professor1": "范丙林",
+            "professor2": "王學武"
+        },
+        {
+            "year": "102",
+            "id": "10201",
+            "author": "林昂東",
+            "title": "寵物養成遊戲應用於發展遲緩兒童之初探",
+            "url": "https://hdl.handle.net/11296/z4q98z",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "102",
+            "id": "10202",
+            "author": "陳韻帆",
+            "title": "遊戲化應用於樹木診斷APP設計之初探",
+            "url": "https://hdl.handle.net/11296/kj4y9b",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "102",
+            "id": "10203",
+            "author": "黃翊慈",
+            "title": "語音辨識之電腦輔助教學軟體－以任務遊戲為例",
+            "url": "https://hdl.handle.net/11296/np559s",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "102",
+            "id": "10204",
+            "author": "陳重安",
+            "title": "擴增實境於促銷手法之應用設計",
+            "url": "https://hdl.handle.net/11296/ty9vp4",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "102",
+            "id": "10205",
+            "author": "許銘峯",
+            "title": "新型操作用於行動裝置之DIY電子書研究",
+            "url": "https://hdl.handle.net/11296/gk6mvc",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "102",
+            "id": "10206",
+            "author": "吳鴻毅",
+            "title": "各國熱門議題在互動視覺化之創作論述",
+            "url": "https://hdl.handle.net/11296/4ac87v",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "102",
+            "id": "10207",
+            "author": "董君慧",
+            "title": "網路實況平台原型製作－以多視窗設計為例",
+            "url": "https://hdl.handle.net/11296/727279",
+            "professor1": "范丙林",
+            "professor2": "許一珍"
+        },
+        {
+            "year": "102",
+            "id": "10208",
+            "author": "徐珮宜",
+            "title": "響應式網頁設計應用於智慧型手機介面之使用性研究- 以東北角暨宜蘭海岸國家風景區網站為例",
+            "url": "https://hdl.handle.net/11296/r34p4f",
+            "professor1": "范丙林",
+            "professor2": "許一珍"
+        },
+        {
+            "year": "102",
+            "id": "10209",
+            "author": "吳坤芳",
+            "title": "行動購物應用程式之使用性研究",
+            "url": "https://hdl.handle.net/11296/sz5djh",
+            "professor1": "范丙林",
+            "professor2": "許一珍"
+        },
+        {
+            "year": "102",
+            "id": "10210",
+            "author": "朱天芫",
+            "title": "《人口×新聞》 台灣人口變遷視覺資訊圖之創作論述",
+            "url": "https://hdl.handle.net/11296/ep7u3s",
+            "professor1": "范丙林",
+            "professor2": "許一珍"
+        },
+        {
+            "year": "102",
+            "id": "10211",
+            "author": "詹騏謙",
+            "title": "配合英雄能力的程序化關卡生成系統之研究－以動作角色扮演遊戲為例",
+            "url": "https://hdl.handle.net/11296/p2xz57",
+            "professor1": "范丙林",
+            "professor2": "許一珍"
+        },
+        {
+            "year": "103",
+            "id": "10301",
+            "author": "陳宜佳",
+            "title": "具遊戲性的輔助測驗系統之設計",
+            "url": "https://hdl.handle.net/11296/967cjj",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "103",
+            "id": "10302",
+            "author": "諶昱憲",
+            "title": "國小學童英語學習動機之評估 -以任務導向之語音辨識遊戲為例",
+            "url": "https://hdl.handle.net/11296/866mmf",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "103",
+            "id": "10303",
+            "author": "黃子龍",
+            "title": "現代水墨視覺創作應用於數位奇幻遊戲：以「可能世界」為例",
+            "url": "https://hdl.handle.net/11296/8e492y",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "103",
+            "id": "10304",
+            "author": "魏子貴",
+            "title": "情境故事法應用於九份文化商品開發之研究",
+            "url": "https://hdl.handle.net/11296/7247fd",
+            "professor1": "盧姝如",
+            "professor2": "范丙林"
+        },
+        {
+            "year": "103",
+            "id": "10305",
+            "author": "盧語喬",
+            "title": "擴增實境應用於數位導覽之科技接受模式與易用性探討",
+            "url": "https://hdl.handle.net/11296/7uyvzw",
+            "professor1": "范丙林",
+            "professor2": "許一珍"
+        },
+        {
+            "year": "104",
+            "id": "10401",
+            "author": "張育榮",
+            "title": "穿戴式裝置於運動過程互動設計－以慢跑為例",
+            "url": "https://hdl.handle.net/11296/e8fuyu",
+            "professor1": "俞齊山",
+            "professor2": "范丙林"
+        },
+        {
+            "year": "104",
+            "id": "10402",
+            "author": "闕彤宇",
+            "title": "以資料探勘分析股市和氣候之關聯性研究－以遊戲類股為例",
+            "url": "https://hdl.handle.net/11296/qfq523",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "104",
+            "id": "10403",
+            "author": "趙君晏",
+            "title": "結合語音辨識於虛擬使用者介面之設計研究",
+            "url": "https://hdl.handle.net/11296/2qnzeh",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "104",
+            "id": "10404",
+            "author": "杜雨璇",
+            "title": "數位遊戲應用於國小藝術與人文課程之研究－ 以色彩教學為例",
+            "url": "https://hdl.handle.net/11296/tpjbcg",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "104",
+            "id": "10405",
+            "author": "呂冠賢",
+            "title": "擴增實境遊戲應用於合作學習成效之研究",
+            "url": "https://hdl.handle.net/11296/785c75",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "104",
+            "id": "10406",
+            "author": "陳柏均",
+            "title": "遊戲旁白對玩家遊戲自我效能之影響—以反應遊戲為例",
+            "url": "https://hdl.handle.net/11296/pcu574",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "106",
+            "id": "10601",
+            "author": "韓皓光",
+            "title": "行動裝置遊戲的等待畫面對使用者等待時間知覺與情緒之研究",
+            "url": "https://hdl.handle.net/11296/ux4s6f",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "106",
+            "id": "10602",
+            "author": "李敏弘",
+            "title": "虛擬實境結合氣動式體驗研究-以寵物貓為例",
+            "url": "https://hdl.handle.net/11296/4eu9v2",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "106",
+            "id": "10603",
+            "author": "陳倩瑜",
+            "title": "從學習風格探討國小高年級之不插電資訊科學教學-以條件陳述式邏輯單元為例",
+            "url": "https://hdl.handle.net/11296/4f8nx6",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "105",
+            "id": "10501",
+            "author": "曾柏諺",
+            "title": "虛擬實境電子運動遊戲之設計研究",
+            "url": "https://hdl.handle.net/11296/4a7j6d",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "105",
+            "id": "10502",
+            "author": "王慧珠",
+            "title": "桌上遊戲融入課程對幼兒空間能力發展之研究",
+            "url": "https://hdl.handle.net/11296/3x5f5q",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "105",
+            "id": "10503",
+            "author": "黃鈴雅",
+            "title": "桌上遊戲融入課程對幼兒口語表達能力的影響之行動研究",
+            "url": "https://hdl.handle.net/11296/54882a",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "105",
+            "id": "10504",
+            "author": "蔡仲強",
+            "title": "東方元素角色設計－以戰錘40K為藍本",
+            "url": "https://hdl.handle.net/11296/r7e65q",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "105",
+            "id": "10505",
+            "author": "陳珮玄",
+            "title": "互動式電子繪本介面按鈕設計與評估",
+            "url": "https://hdl.handle.net/11296/qpw8qa",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "105",
+            "id": "10506",
+            "author": "陳薇",
+            "title": "以糖尿病飲食為主題之桌遊設計創作",
+            "url": "https://hdl.handle.net/11296/f6v38b",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "105",
+            "id": "10507",
+            "author": "江柏威",
+            "title": "虛擬實境中虛擬按鈕之觸覺回饋研究",
+            "url": "https://hdl.handle.net/11296/qtrayh",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "105",
+            "id": "10508",
+            "author": "吳尚融",
+            "title": "以行動定位服務為基礎之匿名社交軟體互動設計—以心解APP為例",
+            "url": "https://hdl.handle.net/11296/824658",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "105",
+            "id": "10509",
+            "author": "宋婉菱",
+            "title": "中高齡者對手機提醒事項工具介面偏好之研究",
+            "url": "https://hdl.handle.net/11296/w2wpk4",
+            "professor1": "范丙林",
+            "professor2": "王學武"
+        },
+        {
+            "year": "107",
+            "id": "10701",
+            "author": "劉冠林",
+            "title": "以漸進式網路應用程式增進線上旅遊平台之旅遊體驗",
+            "url": "https://hdl.handle.net/11296/t7h2rg",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "107",
+            "id": "10702",
+            "author": "黃怡靜",
+            "title": "結合電子文本的桌上密室逃脫遊戲設計",
+            "url": "https://hdl.handle.net/11296/nmmsn8",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "107",
+            "id": "10703",
+            "author": "李怡青",
+            "title": "結合末日幻想風格與未來主義風格之3D 遊戲場景設計 －以電腦遊戲《厄血》為例",
+            "url": "https://hdl.handle.net/11296/efx8r8",
+            "professor1": "俞齊山",
+            "professor2": "范丙林"
+        },
+        {
+            "year": "107",
+            "id": "10704",
+            "author": "黃瑜婷",
+            "title": "數位化說故事App之設計研究",
+            "url": "https://hdl.handle.net/11296/h9dkq7",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "107",
+            "id": "10705",
+            "author": "林彥辰",
+            "title": "物件隱喻對虛擬實境敘事遊戲經驗影響之研究",
+            "url": "https://hdl.handle.net/11296/pr8t53",
+            "professor1": "俞齊山",
+            "professor2": "范丙林"
+        },
+        {
+            "year": "107",
+            "id": "10706",
+            "author": "林昇翰",
+            "title": "關卡節奏設計模式之研究-以平台動作遊戲為例",
+            "url": "https://hdl.handle.net/11296/2k29tm",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "107",
+            "id": "10707",
+            "author": "李昆霖",
+            "title": "植基於繩索力回饋之虛擬實境臨場感研究 —以寵物狗為例",
+            "url": "https://hdl.handle.net/11296/mksv6c",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "108",
+            "id": "10801",
+            "author": "曾志學",
+            "title": "運用知識圖譜於國小教師自我導向學習傾向之研究",
+            "url": "https://hdl.handle.net/11296/76m56g",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "108",
+            "id": "10802",
+            "author": "陳冠穎",
+            "title": "實體載具與虛擬載具對不同學習風格國小生的學習動機及滿意度之研究",
+            "url": "https://hdl.handle.net/11296/9gz7qf",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "108",
+            "id": "10803",
+            "author": "陳語芟",
+            "title": "結合廣告數據導向設計之資訊圖表使用性之研究",
+            "url": "https://hdl.handle.net/11296/a8uy86",
+            "professor1": "俞齊山",
+            "professor2": "范丙林"
+        },
+        {
+            "year": "108",
+            "id": "10804",
+            "author": "陳志玄",
+            "title": "基於新聞與論壇輿論情感分析之股市預測與交易決策研究",
+            "url": "https://hdl.handle.net/11296/7kzh25",
+            "professor1": "俞齊山",
+            "professor2": "范丙林"
+        },
+        {
+            "year": "108",
+            "id": "10805",
+            "author": "謝育哲",
+            "title": "基於區塊鏈技術之線上評論系統研究-以企業評論為例",
+            "url": "https://hdl.handle.net/11296/9v8hxt",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "109",
+            "id": "10901",
+            "author": "李穎雋",
+            "title": "相似性與常規性遊戲操作機制對敘事參與度及沉浸度的影響—以QTE遊戲為例",
+            "url": "https://hdl.handle.net/11296/8g33ya",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "109",
+            "id": "10902",
+            "author": "沈桓民",
+            "title": "臉部情緒融入遊戲輸入機制-以專注表情為例",
+            "url": "https://hdl.handle.net/11296/a5syn3",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "109",
+            "id": "10903",
+            "author": "邱慧心",
+            "title": "臺灣妖怪之動態插畫創作：樹靈、墓坑鳥、海中毛人和黃衣小飛俠",
+            "url": "https://hdl.handle.net/11296/rrcgn7",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "109",
+            "id": "10904",
+            "author": "陳穎融",
+            "title": "以漸進式網路應用程式改善觀眾於影展觀影體驗之服務設計—以金馬影展網站為例",
+            "url": "https://hdl.handle.net/11296/a7s9v9",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "109",
+            "id": "10905",
+            "author": "李淯萱",
+            "title": "以雙人合作機制改善拖延之 LINE 聊天機器人設計",
+            "url": "https://hdl.handle.net/11296/bzu96p",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "109",
+            "id": "10906",
+            "author": "陳鈺文",
+            "title": "短時間壓力恢復之適地性休閒服務系統設計",
+            "url": "https://hdl.handle.net/11296/5v8d45",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "109",
+            "id": "10907",
+            "author": "潘佑萱",
+            "title": "餐飲類型評論可信度即時判斷之「說食話」系統設計—以 Google 在地嚮導為例",
+            "url": "https://hdl.handle.net/11296/589653",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "109",
+            "id": "10908",
+            "author": "周晴萱",
+            "title": "台灣元素與蒸氣龐克風格結合之3D場景概念藝術創作",
+            "url": "https://hdl.handle.net/11296/5mf4bx",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "109",
+            "id": "10909",
+            "author": "郭昀甄",
+            "title": "以漸進式網路應用程式提升餐廳服務—以點餐式限時吃到飽餐廳為例",
+            "url": "https://hdl.handle.net/11296/q7h93h",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "110",
+            "id": "11001",
+            "author": "何孟恬",
+            "title": "公車應用程式結合即時動態之介面設計－以Bus+為例",
+            "url": "https://hdl.handle.net/11296/wk8z7m",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "110",
+            "id": "11002",
+            "author": "李佩芸",
+            "title": "合作學習導入LINE聊天機器人輔助自我調整學習－以網頁設計課程為例",
+            "url": "https://hdl.handle.net/11296/kcw5j6",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "110",
+            "id": "11003",
+            "author": "葉司淇",
+            "title": "基於區塊鏈NFT技術之社交媒體平台研究-以BlockShare為例",
+            "url": "https://hdl.handle.net/11296/g7f7k5",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "110",
+            "id": "11004",
+            "author": "賴薇如",
+            "title": "遊戲化待辦清單應用程式之開發與設計",
+            "url": "https://hdl.handle.net/11296/6knbs7",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "110",
+            "id": "11005",
+            "author": "馬夢娜",
+            "title": "英文單字學習之擴增實境遊戲的設計與開發",
+            "url": "https://hdl.handle.net/11296/duyhq8",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        },
+        {
+            "year": "110",
+            "id": "11006",
+            "author": "蔡瑀",
+            "title": "應用機器學習之留言分析系統設計 - 以Youtube教育影片為例",
+            "url": "https://hdl.handle.net/11296/94cq5y",
+            "professor1": "范丙林",
+            "professor2": "俞齊山"
+        }
+    ]
+]

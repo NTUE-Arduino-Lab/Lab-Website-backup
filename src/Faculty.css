@@ -1,0 +1,551 @@
+#faculty {
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 48px;
+}
+
+.faculty_main {
+    display: flex;
+    flex-direction: row;
+}
+
+.faculty_fan {
+    height: 581px;
+    width: 592px;
+    background-color: #f4faff;
+    border-radius: 40px;
+    margin-right: 32px;
+    position: relative;
+}
+
+.faculty_planet1 {
+    background: url(./img/faculty/planetForProfessorLeft1440.svg)no-repeat;
+    width: 288px;
+    height: 180px;
+    position: absolute;
+    top: -72px;
+    left: -112px;
+}
+
+.faculty_np {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 78px;
+}
+
+.faculty_name {
+    color: #171819;
+    font-size: 46px;
+    font-family: "GenSenRounded H";
+    font-weight: 900;
+    line-height: 69px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.faculty_position {
+    color: #171819;
+    font-size: 26px;
+    font-family: "GenSenRounded B";
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.faculty_img1 {
+    background: url(./img/faculty/professorFAN1440.svg)no-repeat;
+    width: 184px;
+    height: 241px;
+    position: absolute;
+    right: 85px;
+    top: -47px;
+    transition: ease-in-out .4s;
+}
+
+.faculty_content {
+    width: 440px;
+    position: absolute;
+    top: 260px;
+    left: 76px;
+}
+
+.faculty_eq {
+    color: #171819;
+    font-size: 26px;
+    font-family: "GenSenRounded M";
+    font-weight: 500;
+    line-height: 39px;
+    word-wrap: break-word;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.faculty_email {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.faculty_icon1 {
+    background: url(./img/faculty/mail.svg);
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+}
+
+.faculty_text {
+    color: #171819;
+    font-size: 18px;
+    font-family: "GenSenRounded M";
+    font-weight: 500;
+    line-height: 150%;
+    word-wrap: break-word;
+    text-align: left;
+    margin-left: 10px;
+    width: 392px;
+}
+
+.faculty_phone {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.faculty_icon2 {
+    background: url(./img/faculty/phone.svg);
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+}
+
+.faculty_expertise {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+
+.faculty_icon3 {
+    background: url(./img/faculty/atom.svg);
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+}
+
+.faculty_yu {
+    height: 581px;
+    width: 592px;
+    background-color: #f4faff;
+    border-radius: 40px;
+    position: relative;
+}
+
+.faculty_planet2 {
+    background: url(./img/faculty/planetForProfessorRight1440.svg)no-repeat;
+    width: 320px;
+    height: 220px;
+    position: absolute;
+    top: 408px;
+    right: -112px;
+}
+
+.faculty_img2 {
+    background: url(./img/faculty/professorYU1440.svg)no-repeat;
+    width: 184px;
+    height: 241px;
+    position: absolute;
+    right: 85px;
+    top: -47px;
+    transition: ease-in-out .4s;
+}
+
+.faculty_web {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.faculty_icon4 {
+    background: url(./img/faculty/linkExternal.svg);
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+}
+
+.web_text {
+    color: #171819;
+    font-size: 18px;
+    font-family: "GenSenRounded M";
+    font-weight: 500;
+    word-wrap: break-word;
+    text-align: left;
+    margin-left: 10px;
+    width: 392px;
+}
+
+@media (max-width: 1440px) {
+    #faculty {
+        height: 574px;
+        padding-top: 0px;
+        padding-left: 48px;
+        padding-bottom: 0px; 
+    }
+
+    .faculty_main {
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    .faculty_fan {
+        height: 420px;
+        width: 50%;
+        background-color: #f4faff;
+        border-radius: 20px;
+        margin-right: 24px;
+    }
+    
+    .faculty_planet1 {
+        background: url(./img/faculty/planetForProfessorRight768.svg)no-repeat;
+        width: 140px;
+        height: 112px;
+        top: -60px;
+        left: -48px;
+    }
+    
+    .faculty_np {
+        margin-top: 60px;
+        margin-left: 24px;
+    }
+    
+    .faculty_name {
+        font-size: 29px;
+        line-height: 150%;
+    }
+    
+    .faculty_position {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    
+    .faculty_img1 {
+        background: url(./img/faculty/professorFAN768.svg)no-repeat;
+        width: 91.64px;
+        height: 120px;
+        right: 24px;
+        top: 8px;
+    }
+    
+    .faculty_content {
+        width: 276px;
+        top: 164px;
+        left: 24px;
+    }
+    
+    .faculty_eq {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    
+    .faculty_icon1 {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .faculty_text {
+        font-size: 14px;
+        margin-left: 16px;
+        width: 255px;
+    }
+    
+    .faculty_icon2 {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .faculty_icon3 {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .faculty_yu {
+        height: 420px;
+        width: 50%;
+        border-radius: 20px;
+    }
+    
+    .faculty_planet2 {
+        background: url(./img/faculty/planetForProfessorLeft768.svg)no-repeat;
+        width: 140px;
+        height: 112px;
+        top: 365px;
+        right: -40px;
+    }
+    
+    .faculty_img2 {
+        background: url(./img/faculty/professorYU768.svg)no-repeat;
+        width: 91.64px;
+        height: 120px;
+        right: 24px;
+        top: 8px;
+    }
+    
+    .faculty_icon4 {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .web_text {
+        font-size: 14px;
+        margin-left: 16px;
+        width: 214px;
+    }
+}
+
+@media (max-width: 768px) {
+    #faculty {
+        height: 996px;
+        padding-top: 0px;
+        padding-left: 44px;
+        padding-right: 44px;
+        padding-bottom: 0px; 
+    }
+
+    .faculty_main {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faculty_fan {
+        height: 420px;
+        width: 520px;
+        background-color: #f4faff;
+        border-radius: 20px;
+        margin-bottom: 36px;
+        margin-right: 0;
+    }
+    
+    .faculty_planet1 {
+        background: url(./img/faculty/planetForProfessorLeft768.svg)no-repeat;
+        width: 140px;
+        height: 112px;
+        top: -60px;
+        left: -44px;
+    }
+    
+    .faculty_np {
+        margin-top: 60px;
+        margin-left: 24px;
+    }
+    
+    .faculty_name {
+        font-size: 29px;
+        line-height: 150%;
+    }
+    
+    .faculty_position {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    
+    .faculty_img1 {
+        background: url(./img/faculty/professorFAN768.svg)no-repeat;
+        width: 91.64px;
+        height: 120px;
+        right: 24px;
+        top: 8px;
+    }
+    
+    .faculty_content {
+        width: 276px;
+        top: 164px;
+        left: 24px;
+    }
+    
+    .faculty_eq {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    
+    .faculty_icon1 {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .faculty_text {
+        font-size: 14px;
+        margin-left: 16px;
+        width: 214px;
+    }
+    
+    .faculty_icon2 {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .faculty_icon3 {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .faculty_yu {
+        height: 420px;
+        width: 520px;
+        border-radius: 20px;
+    }
+    
+    .faculty_planet2 {
+        background: url(./img/faculty/planetForProfessorRight768.svg)no-repeat;
+        width: 140px;
+        height: 112px;
+        top: 365px;
+        right: -44px;
+    }
+    
+    .faculty_img2 {
+        background: url(./img/faculty/professorYU768.svg)no-repeat;
+        width: 91.64px;
+        height: 120px;
+        right: 24px;
+        top: 8px;
+    }
+    
+    .faculty_icon4 {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .web_text {
+        font-size: 14px;
+        margin-left: 16px;
+        width: 214px;
+    }
+}
+
+@media (max-width: 608px) {
+    #faculty {
+        height: 996px;
+        padding-top: 0px;
+        padding-left: 44px;
+        padding-right: 44px;
+        padding-bottom: 0px; 
+    }
+
+    .faculty_main {
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .faculty_fan {
+        height: 420px;
+        width: 100%;
+        background-color: #f4faff;
+        border-radius: 20px;
+        margin-bottom: 36px;
+    }
+    
+    .faculty_planet1 {
+        background: url(./img/faculty/planetForProfessorLeft768.svg)no-repeat;
+        width: 140px;
+        height: 112px;
+        top: -60px;
+        left: -44px;
+    }
+    
+    .faculty_np {
+        margin-top: 60px;
+        margin-left: 24px;
+    }
+    
+    .faculty_name {
+        font-size: 29px;
+        line-height: 150%;
+    }
+    
+    .faculty_position {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    
+    .faculty_img1 {
+        background: url(./img/faculty/professorFAN768.svg)no-repeat;
+        width: 91.64px;
+        height: 120px;
+        right: 24px;
+        top: 8px;
+    }
+    
+    .faculty_content {
+        width: 276px;
+        top: 164px;
+        left: 24px;
+    }
+    
+    .faculty_eq {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    
+    .faculty_icon1 {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .faculty_text {
+        font-size: 14px;
+        margin-left: 16px;
+        width: 214px;
+    }
+    
+    .faculty_icon2 {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .faculty_icon3 {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .faculty_yu {
+        height: 420px;
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+    .faculty_planet2 {
+        background: url(./img/faculty/planetForProfessorRight768.svg)no-repeat;
+        width: 140px;
+        height: 112px;
+        top: 365px;
+        right: -44px;
+    }
+    
+    .faculty_img2 {
+        background: url(./img/faculty/professorYU768.svg)no-repeat;
+        width: 91.64px;
+        height: 120px;
+        right: 24px;
+        top: 8px;
+    }
+    
+    .faculty_icon4 {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .web_text {
+        font-size: 14px;
+        margin-left: 16px;
+        width: 214px;
+    }
+}

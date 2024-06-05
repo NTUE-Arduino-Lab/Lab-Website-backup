@@ -1,0 +1,164 @@
+#camp {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+.photos {
+  height: 600px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  /* 保持滾動功能 */
+  -ms-overflow-style: none;
+  /* IE和Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  align-items: center;
+  justify-content: center;
+}
+
+.photos::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, 和 Opera */
+}
+
+.photo-container {
+  padding: 8px;
+  width: 10%;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.photo-container .photo-box {
+  width: 100%;
+  /* 遮罩狀態下寬高 */
+  height: 440px;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 60px;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+
+.photo-container img {
+  width: 100%;
+  height: 100%;
+  /* 圖片原始寬高 */
+  transform-origin: center center;
+  transition: all 0.5s ease-in-out;
+  /* 平滑过渡效果 */
+  object-fit: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.photo-container .photo-box .text h4 {
+  transform: translateX(-50%);
+  word-break: break-word;
+  line-height: 1.4;
+  /* width: 25px; */
+  /*締改*/
+  width: 32px;
+  height: 100%;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.photo-container .photo-box .text p {
+  opacity: 0;
+  z-index: -1;
+}
+
+.photo-container .photo-box:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.photo-container .photo-box .text h4 {
+  color: #FFF;
+  font-family: "GenSenRounded B";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+
+}
+
+.photo-container .photo-box .text p {
+  color: #FFF;
+  font-family: "GenSenRounded M";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+
+.photo-container.expanded {
+  padding: 16px;
+  width: 40%;
+  cursor: default;
+}
+
+.photo-container.expanded .photo-box {
+  height: 560px;
+}
+
+.photo-container.expanded .photo-box:before {
+  /* width: 456px; */
+  /* height: 736px; */
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%); */
+  /*締改*/
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.05) 53.5%, rgba(0, 0, 0, 0.25) 72.5%, rgba(0, 0, 0, 0.50) 100%);
+}
+
+.photo-container.expanded .photo-box .text {
+  position: absolute;
+  left: 0;
+  width: calc(100% - 48px);
+  padding: 24px;
+  bottom: 50px;
+  z-index: 1;
+  opacity: 0;
+}
+
+
+.photo-container.expanded .photo-box .text h4 {
+  word-break: normal;
+  height: auto;
+  position: static;
+  transform: none;
+  width: auto;
+  display: block;
+  text-align: left;
+  line-height: 1.5;
+    /* 締新增 */
+  margin-bottom: 8px;
+}
+
+.photo-container.expanded.showText .photo-box .text,
+.photo-container.expanded.showText .photo-box .text h4,
+.photo-container.expanded.showText .photo-box .text p {
+  opacity: 1;
+  transition: all .5s ease-in-out;
+}
+

@@ -1,0 +1,89 @@
+/* 通用樣式 */
+
+.container {
+  max-width: 100%;
+  padding: 0 36px;
+  margin: 0 auto;
+}
+
+.show_sm {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 48px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1288px;
+  }
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+
+  /*小版隱藏*/
+  .hidden_sm {
+    display: none;
+  }
+
+  /*小版顯示*/
+  .show_sm {
+    display: block;
+  }
+}
+
+/*字體相關設置*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@200;300;400;500;700;900&display=swap');
+
+@font-face {
+  font-family: 'GenSenRounded TW';
+  src: url('./font/ttc/GenSenRounded-EL.ttc') format('truetype-collection');
+  font-weight: 200;
+  /* 超細字重 */
+}
+
+@font-face {
+  font-family: 'GenSenRounded TW';
+  src: url('./font/ttc/GenSenRounded-L.ttc') format('truetype-collection');
+  font-weight: 300;
+  /* 細等字重 */
+}
+
+
+@font-face {
+  font-family: 'GenSenRounded TW';
+  src: url('./font/ttc/GenSenRounded-R.ttc') format('truetype-collection');
+  font-weight: 400;
+  /* 中細字重 */
+}
+
+@font-face {
+  font-family: 'GenSenRounded TW';
+  src: url('./font/ttc/GenSenRounded-M.ttc') format('truetype-collection');
+  font-weight: 500;
+  /* 中等字重 */
+}
+
+@font-face {
+  font-family: 'GenSenRounded TW';
+  src: url('./font/ttc/GenSenRounded-B.ttc') format('truetype-collection');
+  font-weight: 700;
+  /* 粗体字重 */
+}
+
+@font-face {
+  font-family: 'GenSenRounded TW';
+  src: url('./font/ttc/GenSenRounded-H.ttc') format('truetype-collection');
+  font-weight: 900;
+  /* 更粗体字重 */
+}

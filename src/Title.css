@@ -1,0 +1,216 @@
+.title_main {
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    /* z-index: -1; */
+    transition: all ease-in-out .4s;
+}
+
+.title_bg {
+    background-color: #27165C;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.title_bgm {
+    background: url(./img/keyvision/keyVisionBG1440.svg);
+    width: 961px;
+    height: 961px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title_bgl {
+    background: url(./img/keyvision/keyVisionLeft1440.svg)no-repeat;
+    background-position: bottom left;
+    height: 700px;
+    width: 648px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.title_bgr {
+    background: url(./img/keyvision/keyVisionRight1440.svg)no-repeat;
+    background-position: top right;
+    height: 700px;
+    width: 648px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.title_text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    word-break: keep-all;
+}
+
+.title_text1 {
+    color: #fff;
+    font-family: "GenSenRounded H";
+    word-wrap: break-word;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 69px;
+    padding-bottom: 24px;
+}
+
+.title_text2 {
+    color: #fff;
+    font-family: "GenSenRounded H";
+    word-wrap: break-word;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 69px;
+    padding-bottom: 48px;
+}
+
+.title_text3 {
+    color: #fff;
+    font-family: "GenSenRounded M";
+    word-wrap: break-word;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 34.50px;
+    padding-bottom: 52px;
+}
+
+.title_text4 {
+    display: none;
+}
+
+.title_arrow {
+    background: url(./img/keyvision/KeyVisionArrow1440.svg);
+    width: 180px;
+    height: 80px;
+    transition: all 0.5s ease-in-out;
+}
+
+.title_arrow:hover {
+    transform: translateY(10px);
+}
+
+@media (max-width: 1440px) {
+    .title_bgm {
+        background: url(./img/keyvision/keyVisionBG768.svg);
+        width: 681px;
+        height: 681px;
+    }
+
+    .title_bgl {
+        background: url(./img/keyvision/keyVisionLeft768.svg)no-repeat;
+        background-position: bottom left;
+        height: 640px;
+        width: 400px;
+        background-size: 90%;
+    }
+
+    .title_bgr {
+        background: url(./img/keyvision/keyVisionRight768.svg)no-repeat;
+        background-position: top right;
+        height: 640px;
+        width: 400px;
+        background-size: 90%;
+    }
+
+    .title_text1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        padding-bottom: 16px;
+    }
+
+    .title_text2 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        padding-bottom: 32px;
+    }
+
+    .title_text3 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        padding-bottom: 40px;
+    }
+
+    .title_text4 {
+        display: none;
+    }
+
+    .title_arrow {
+        background: url(./img/keyvision/KeyVisionArrow768.svg);
+        width: 80px;
+        height: 40px;
+    }
+}
+
+@media (max-width:768px) {
+    .title_bgm {
+        background: url(./img/keyvision/keyVisionBG375.svg);
+        width: 555px;
+        height: 555px;
+    }
+
+    .title_bgl {
+        background: url(./img/keyvision/keyVisionLeft375.svg)no-repeat;
+        background-position: bottom left;
+        height: 640px;
+        width: 200px;
+        background-size: 100%;
+    }
+
+    .title_bgr {
+        background: url(./img/keyvision/keyVisionRight375.svg)no-repeat;
+        background-position: top right;
+        height: 640px;
+        width: 144px;
+        background-size: 100%;
+    }
+
+    .title_text1 {
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 34.5px;
+        padding-bottom: 8px;
+    }
+
+    .title_text2 {
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 34.5px;
+        padding-bottom: 16px;
+    }
+
+    .title_text3 {
+        display: none;
+    }
+
+    .title_text4 {
+        display: inline;
+        color: #fff;
+        font-family: "GenSenRounded TW";
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        padding-bottom: 32px;
+    }
+
+    .title_arrow {
+        background: url(./img/keyvision/KeyVisionArrow375.svg);
+        width: 80px;
+        height: 40px;
+    }
+}
