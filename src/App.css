@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@200;300;400;500;700;900&display=swap');
+
 .App {
   text-align: center;
   box-sizing: border-box;
@@ -8,49 +10,7 @@
   pointer-events: none;
 }
 
-@font-face {
-  font-family: 'GenSenRounded TW';
-  src: url('./font/ttc/GenSenRounded-M.ttc') format("truetype"),
-    url('./font/woff/GenSenRoundedTW-M-01.woff') format("woff");
-}
 
-@font-face {
-  font-family: 'GenSenRounded B';
-  src: url('./font/ttc/GenSenRounded-B.ttc') format("truetype"),
-    url('./font/woff/GenSenRoundedTW-B-01.woff') format("woff");
-
-}
-
-@font-face {
-  font-family: 'GenSenRounded EL';
-  src: url('./font/ttc/GenSenRounded-EL.ttc') format("truetype"),
-    url('./font/woff/GenSenRoundedTW-EL-01.woff') format("woff");
-}
-
-
-@font-face {
-  font-family: 'GenSenRounded H';
-  src: url('./font/ttc/GenSenRounded-H.ttc') format("truetype"),
-    url('./font/woff/GenSenRoundedTW-H-01.woff') format("woff");
-}
-
-@font-face {
-  font-family: 'GenSenRounded L';
-  src: url('./font/ttc/GenSenRounded-L.ttc') format("truetype"),
-    url('./font/woff/GenSenRoundedTW-L-01.woff') format("woff");
-}
-
-@font-face {
-  font-family: 'GenSenRounded M';
-  src: url('./font/ttc/GenSenRounded-M.ttc') format("truetype"),
-    url('./font/woff/GenSenRoundedTW-M-01.woff') format("woff");
-}
-
-@font-face {
-  font-family: 'GenSenRounded R';
-  src: url('./font/ttc/GenSenRounded-R.ttc') format("truetype"),
-    url('./font/woff/GenSenRoundedTW-R-01.woff') format("woff");
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -104,7 +64,7 @@
 }
 
 .linkButton {
-  font-family: "GenSenRounded B";
+  font-family: 'Noto Sans TC';
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -188,7 +148,7 @@
   /* 保持文字直立顯示 */
   transform: rotate(0deg);
   /* 確保文字方向正確 */
-  font-family: "GenSenRounded B";
+  font-family: 'Noto Sans TC';
   /* 設定特定字體 */
   font-size: 23px;
   /* 根據Figma設計調整字體大小 */
@@ -338,7 +298,7 @@ footer:after {
 }
 
 .footer_left .footer_text h3 {
-  font-family: "GenSenRounded M";
+  font-family: 'Noto Sans TC';
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -350,7 +310,7 @@ footer:after {
 .footer_left .footer_text p {
   text-align: left;
   color: #fff;
-  font-family: "GenSenRounded M";
+  font-family: 'Noto Sans TC';
   font-size: 14px;
   font-style: normal;
   line-height: 1.5;
@@ -364,7 +324,7 @@ footer:after {
   text-align: left;
   color: #fff;
   padding-top: 30px;
-  font-family: "GenSenRounded M";
+  font-family: 'Noto Sans TC';
   font-size: 14px;
   font-style: normal;
   line-height: 1.5;
@@ -382,7 +342,7 @@ footer:after {
 .footer_right ul {
   color: #fff;
   text-align: left;
-  font-family: "GenSenRounded M";
+  font-family: 'Noto Sans TC';
   font-size: 18px;
   font-style: normal;
   margin: 0;
@@ -432,6 +392,11 @@ footer:after {
 
   .verticalText {
     font-size: 14px;
+  }
+
+  footer {
+    background: url(../src/img/footer_bigwaveM.png)no-repeat top center;
+    background-size: cover;
   }
 }
 
@@ -525,7 +490,7 @@ footer:after {
     /* 增加移动距离以强化效果 */
   }
 
-  
+
 
 
 }
@@ -649,6 +614,8 @@ footer:after {
 
   footer {
     padding: 80px 0 100px;
+    background: url(../src/img/footer_bigwaveS.png)no-repeat top center;
+    background-size: cover;
   }
 
   footer:after {

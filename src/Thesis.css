@@ -2,8 +2,8 @@
     background: url(./img/background/Thesis_bg.svg)no-repeat center bottom;
     background-size: cover;
     background-color: #deeffe; */
-    /* height: 1086px; 1126-40(padding) */
-    /* padding: 20px;
+/* height: 1086px; 1126-40(padding) */
+/* padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +15,8 @@
     background-repeat: repeat;
     background-position: center;
     background-size: 128px 128px;
-    height: 920px; /*960-40(padding) */
+    height: 920px;
+    /*960-40(padding) */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -23,11 +24,16 @@
 }
 
 .images-row {
-    display: flex; /* 使用flex布局 */
-    justify-content: center; /* 中心对齐子项 */
-    align-items: center; /* 纵向居中 */
-    flex-direction: row; /* 子元素沿水平方向排列 */
-    width: 100%; /* 根据需要调整 */
+    display: flex;
+    /* 使用flex布局 */
+    justify-content: center;
+    /* 中心对齐子项 */
+    align-items: center;
+    /* 纵向居中 */
+    flex-direction: row;
+    /* 子元素沿水平方向排列 */
+    width: 100%;
+    /* 根据需要调整 */
 }
 
 .arrow-left {
@@ -43,57 +49,76 @@
     height: 48px;
     background-color: transparent;
     margin: 0 20px;
-    transition: background-color 0.3s ease; /* 添加过渡效果 */
+    transition: background-color 0.3s ease;
+    /* 添加过渡效果 */
 }
 
 .year-container {
     position: relative;
-    width: 120px; /* 与图像尺寸相匹配 */
-    height: 120px; /* 与图像尺寸相匹配 */
+    width: 120px;
+    /* 与图像尺寸相匹配 */
+    height: 120px;
+    /* 与图像尺寸相匹配 */
     justify-content: center;
     align-items: center;
-    display: flex; /* 启用Flexbox布局 */
-    flex-direction: row; /* 子元素横向排列 */
+    display: flex;
+    /* 启用Flexbox布局 */
+    flex-direction: row;
+    /* 子元素横向排列 */
     cursor: pointer;
 }
-  
+
 .planet-image {
     width: 100%;
     height: 100%;
     z-index: 1;
 }
-  
+
 .year-text {
     position: absolute;
     z-index: 1;
     color: #7EC0FC;
     text-align: center;
     /* 特規字體/論文年份使用 */
-    font-family: "GenSenRounded H";
+    font-family: 'Noto Sans TC';
     font-size: 18px;
     font-style: normal;
     font-weight: 900;
-    line-height: 120%; /* 21.6px */
+    line-height: 120%;
+    /* 21.6px */
 
     /*以下為避免選取時出現背景*/
-    -moz-user-select: none; /* Firefox */
-    -webkit-user-select: none;  /* Chrome , Safari*/
-    -ms-user-select: none;  /* IE10 */
-    -khtml-user-select: none;  /* 古早瀏覽器 */
+    -moz-user-select: none;
+    /* Firefox */
+    -webkit-user-select: none;
+    /* Chrome , Safari*/
+    -ms-user-select: none;
+    /* IE10 */
+    -khtml-user-select: none;
+    /* 古早瀏覽器 */
     user-select: none;
 }
-  
+
 .image-container {
     overflow-x: auto;
-    display: flex; /* 允许水平滚动 */
-    overflow-y: hidden; /* 隐藏垂直滚动 */
-    white-space: nowrap; /* 防止内容换行，确保水平布局 */
-    width: 1104px; /* 容器宽度扣箭頭 */
-    height: 120px; /* 容器高度，确保足够容纳图片而不需要垂直滚动 */
-    scrollbar-width: none; /* 隐藏Firefox的滚动条 */
-    -ms-overflow-style: none; /* 隐藏IE 10+的滚动条 */
-    background-color:transparent; /* 可选：设置背景色以增加可读性 */
-    flex-direction: row; /* 子元素横向排列 */
+    display: flex;
+    /* 允许水平滚动 */
+    overflow-y: hidden;
+    /* 隐藏垂直滚动 */
+    white-space: nowrap;
+    /* 防止内容换行，确保水平布局 */
+    width: 1104px;
+    /* 容器宽度扣箭頭 */
+    height: 120px;
+    /* 容器高度，确保足够容纳图片而不需要垂直滚动 */
+    scrollbar-width: none;
+    /* 隐藏Firefox的滚动条 */
+    -ms-overflow-style: none;
+    /* 隐藏IE 10+的滚动条 */
+    background-color: transparent;
+    /* 可选：设置背景色以增加可读性 */
+    flex-direction: row;
+    /* 子元素横向排列 */
 }
 
 /* 隐藏Chrome, Safari, Opera的滚动条 */
@@ -110,56 +135,73 @@
 .text-display-area {
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start; /* 确保多行内容时也能向上对齐 */
-    overflow-y: auto; /* 允许垂直滚动 */
-    height: 688px; /* 根据需要调整 712-24(padding) */
-    width: 1168px; /* 根据需要调整 1216-48(padding)*/
+    align-content: flex-start;
+    /* 确保多行内容时也能向上对齐 */
+    overflow-y: auto;
+    /* 允许垂直滚动 */
+    height: 688px;
+    /* 根据需要调整 712-24(padding) */
+    width: 1168px;
+    /* 根据需要调整 1216-48(padding)*/
     padding: 24px;
     padding-right: 0px;
     padding-bottom: 0px;
-    background-color: #fff; /* 可选：设置背景色以增加可读性 */
+    background-color: #fff;
+    /* 可选：设置背景色以增加可读性 */
     margin-top: 20px;
-    justify-content: flex-start; /* 确保子元素从容器的开始处排列 */
+    justify-content: flex-start;
+    /* 确保子元素从容器的开始处排列 */
     border-radius: 32px;
     border: 0.5px #7EC0FC solid;
     transition: all ease-in-out .4s;
 }
 
 .text-display-area::-webkit-scrollbar {
-    width: 6px; /* 滚动条宽度 */
+    width: 6px;
+    /* 滚动条宽度 */
 }
 
 /* 滚动条滑块 */
 .text-display-area::-webkit-scrollbar-thumb {
-    background: #CFD9E1; /* 滑块颜色 */
-    border-radius: 4px; /* 滑块圆角 */
+    background: #CFD9E1;
+    /* 滑块颜色 */
+    border-radius: 4px;
+    /* 滑块圆角 */
 }
 
 /* 滚动条轨道 */
 .text-display-area::-webkit-scrollbar-track {
-    background: #f0f0f0; /* 轨道颜色 */
-    border-radius: 4px; /* 轨道圆角 */
+    background: #f0f0f0;
+    /* 轨道颜色 */
+    border-radius: 4px;
+    /* 轨道圆角 */
     margin: 25px;
 }
+
 .text-display-area .detail-block {
     text-align: left;
-    flex: 1 1 auto; /* 允许方块根据内容自动调整宽度，但不允许它们长到超过它们的内容 */
-    min-width: min-content; /* 设置最小宽度为内容的宽度 */
-    max-width: min-content; /* 限制最大宽度为容器的50%，减去的10px是为了考虑间隙 */
-    margin-right: 16px; /* 给方块之间添加一些间隙 */
+    flex: 1 1 auto;
+    /* 允许方块根据内容自动调整宽度，但不允许它们长到超过它们的内容 */
+    min-width: min-content;
+    /* 设置最小宽度为内容的宽度 */
+    max-width: min-content;
+    /* 限制最大宽度为容器的50%，减去的10px是为了考虑间隙 */
+    margin-right: 16px;
+    /* 给方块之间添加一些间隙 */
     margin-bottom: 24px;
-    background-color: #deeffe; 
+    background-color: #deeffe;
     padding-left: 24px;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-right: 24px;
-    border-radius: 24px; /* 圆角 */
+    border-radius: 24px;
+    /* 圆角 */
     /* 防止文本换行 */
     white-space: nowrap;
     /* 当文本超出方块宽度时，隐藏超出部分 */
     overflow: hidden;
     /* 添加省略号表示文本被截断 */
-    text-overflow: ellipsis; 
+    text-overflow: ellipsis;
 }
 
 .block-top {
@@ -179,7 +221,7 @@
 .block-text1 {
     color: #55575A;
     font-size: 18px;
-    font-family: 'GenSenRounded B';
+    font-family: 'Noto Sans TC';
     font-weight: 700;
     line-height: 27px;
     word-wrap: break-word
@@ -188,7 +230,7 @@
 .block-text2 {
     color: #55575A;
     font-size: 18px;
-    font-family: 'GenSenRounded B';
+    font-family: 'Noto Sans TC';
     font-weight: 700;
     line-height: 27px;
     word-wrap: break-word
@@ -197,18 +239,20 @@
 @media (max-width: 768px) {
     #thesis {
         align-items: start;
-        height: 920px; /*960-40(padding) */
+        height: 920px;
+        /*960-40(padding) */
     }
 
     .images-row {
         height: 92px;
     }
-    
+
     .placeholder {
         display: none;
     }
-    
-    .arrow-left, .arrow-right {
+
+    .arrow-left,
+    .arrow-right {
         display: none;
     }
 
@@ -216,12 +260,14 @@
         font-size: 17.5px;
         font-weight: 900;
         line-height: 21px;
-      }
+    }
 
     .image-container {
         width: auto;
-        height: 70px; /* 容器高度，确保足够容纳图片而不需要垂直滚动 */
+        height: 70px;
+        /* 容器高度，确保足够容纳图片而不需要垂直滚动 */
     }
+
     .year-container {
         width: 100%;
         height: 100%;
@@ -236,12 +282,15 @@
     .placeholder {
         width: 87px;
         height: 62px;
-        background-color:transparent; /* 黑色 */
-        margin: 0 20px; /* 添加一些外边距以便于观察 */
+        background-color: transparent;
+        /* 黑色 */
+        margin: 0 20px;
+        /* 添加一些外边距以便于观察 */
     }
 
     .text-display-area {
-        height: 772px; /* 792-20(padding) */
+        height: 772px;
+        /* 792-20(padding) */
         min-width: 90%;
         width: auto;
         padding: 16px;
@@ -252,6 +301,7 @@
         justify-content: center;
         border-radius: 24px;
     }
+
     .text-display-area .detail-block {
         height: 92px;
         width: 100%;
@@ -261,9 +311,10 @@
         margin-right: 16px;
         margin-bottom: 16px;
         border-radius: 16px;
-        white-space: pre-wrap; /* 文本换行 */
+        white-space: pre-wrap;
+        /* 文本换行 */
     }
-    
+
     .block-top {
         margin-bottom: 4px;
     }
@@ -291,15 +342,18 @@
 
 @media (min-width: 768px) and (max-width: 959px) {
     #thesis {
-        height: 760px; /*800-40(padding) */
+        height: 760px;
+        /*800-40(padding) */
     }
 
     .image-container {
-        width: 608px; /* 720-112 */
+        width: 608px;
+        /* 720-112 */
     }
 
     .text-display-area {
-        height: 556px; /* 576-20(padding) */
+        height: 556px;
+        /* 576-20(padding) */
         min-width: calc(100% - 68px);
         width: auto;
         padding: 20px;
@@ -311,6 +365,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
     .text-display-area .detail-block {
         height: 92px;
         width: auto;
@@ -320,9 +375,10 @@
         margin-right: 20px;
         margin-bottom: 20px;
         border-radius: 16px;
-        white-space: pre-wrap; /* 文本换行 */
+        white-space: pre-wrap;
+        /* 文本换行 */
     }
-    
+
     .block-top {
         margin-bottom: 4px;
     }
@@ -349,15 +405,18 @@
 
 @media (min-width: 960px) and (max-width: 1279px) {
     #thesis {
-        height: 760px; /*800-40(padding) */
+        height: 760px;
+        /*800-40(padding) */
     }
 
     .image-container {
-        width: 752px; /* 864-112 */
+        width: 752px;
+        /* 864-112 */
     }
 
     .text-display-area {
-        height: 556px; /* 576-20(padding) */
+        height: 556px;
+        /* 576-20(padding) */
         min-width: calc(100% - 68px);
         width: auto;
         padding: 20px;
@@ -371,15 +430,17 @@
     }
 
     .text-display-area .detail-block {
-        height: 84px; /* 108-24(padding) */
+        height: 84px;
+        /* 108-24(padding) */
         width: auto;
         min-width: none;
         max-width: none;
         margin-right: 20px;
         margin-bottom: 20px;
-        white-space: pre-wrap; /* 文本换行 */
+        white-space: pre-wrap;
+        /* 文本换行 */
     }
-    
+
     .block-top {
         margin-bottom: 8px;
     }
@@ -392,7 +453,8 @@
 
 @media (min-width: 1280px) and (max-width: 1439px) {
     .text-display-area {
-        height: 688px; /* 根据需要调整 712-24(padding) 設計稿論文內容有誤故另調整高度*/
+        height: 688px;
+        /* 根据需要调整 712-24(padding) 設計稿論文內容有誤故另調整高度*/
         width: auto;
         margin-left: 24px;
         margin-right: 24px;

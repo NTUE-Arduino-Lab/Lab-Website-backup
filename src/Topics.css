@@ -53,7 +53,7 @@
 h4 {
     margin: 0;
     /* 標題字體/boldType@18 */
-    font-family: "GenSenRounded B";
+    font-family: 'Noto Sans TC';
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -64,7 +64,7 @@ h4 {
 h6 {
     margin: 0;
     /* 內容字體/MediumType@14 */
-    font-family: "GenSenRounded M";
+    font-family: 'Noto Sans TC';
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -77,14 +77,15 @@ p {
     text-align: center;
     margin: 0;
     /* 特規字體/領域簡介用 */
-    font-family: "GenSenRounded M";
+    font-family: 'Noto Sans TC';
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
     line-height: 215%;
     /* 29.25px */
 }
-    /* 讓mac對焦pc瀏覽體驗，斷點採用1280px */
+
+/* 讓mac對焦pc瀏覽體驗，斷點採用1280px */
 @media (max-width: 1280px) {
     .topics_box {
         padding: 100px 0;
@@ -140,6 +141,7 @@ p {
         padding: 40px 0px 40px 8px;
 
     }
+
     .topics_cards {
         max-width: 400px;
     }

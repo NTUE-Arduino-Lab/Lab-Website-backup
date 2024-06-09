@@ -7,11 +7,8 @@ import Topics from './Topics';
 //import Honors from './Honors';
 //import Album from './Album'; // 假设 Album 是相簿组件
 import Camp from './Camp';
-//import Contact from './Contact';
+import Footer from './Footer';
 import logo from './img/logo.svg'; // 导入图片
-import footer_logo from './img/footer_logo.svg';
-import footer_map from './img/footer_map.png';
-import footer_logoName from './img/footer_logoName.svg';
 import './App.css'; // 確保你的樣式被正確導入
 import './Common.css'; // 通用樣式
 
@@ -137,12 +134,12 @@ function App() {
   return (
     <div className="App">
       <Helmet>
-      <title>HCI x GAME Lab. 探索虛實交匯，專注於遊戲設計與前端互動設計</title>
-      <meta name="description" content="HCI x GAME Lab. 由國北教數位科技系范丙林與俞齊山教授指導，專注於遊戲設計與前端互動設計的創新。從桌遊到多媒體，從前端到UI/UX；加入我們，一同推動技術與藝術邊界，開拓設計的新宇宙。" />
-      <meta name="keywords" content="遊戲設計, 互動設計, 桌遊設計, 前端開發, 前端設計 , UI , UX, HCI, GAME, Lab, 國立臺北教育大學, 數位科技系, 俞齊山" />
-      <meta name="theme-color" content="#000000" />
-      <link rel="icon" href="/favicon.ico" />
-      <link rel="apple-touch-icon" href="/logo192.png" />
+        <title>HCI x GAME Lab. 探索虛實交匯，專注於遊戲設計與前端互動設計</title>
+        <meta name="description" content="HCI x GAME Lab. 由國北教數位科技系范丙林與俞齊山教授指導，專注於遊戲設計與前端互動設計的創新。從桌遊到多媒體，從前端到UI/UX；加入我們，一同推動技術與藝術邊界，開拓設計的新宇宙。" />
+        <meta name="keywords" content="遊戲設計, 互動設計, 桌遊設計, 前端開發, 前端設計 , UI , UX, HCI, GAME, Lab, 國立臺北教育大學, 數位科技系, 俞齊山" />
+        <meta name="theme-color" content="#000000" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/logo192.png" />
       </Helmet>
       <div className="header">
         <img src={logo} alt="Logo" className="logo" />
@@ -157,7 +154,7 @@ function App() {
             </svg>
           )}
         </button>
-  
+
         <div className={`links ${isMenuOpen ? 'show' : ''}`}>
           <button className="linkButton" onClick={() => scrollToSection('faculty')}>研究室介紹</button>
           <button className="linkButton" onClick={() => scrollToSection('topics')}>研究領域</button>
@@ -166,7 +163,7 @@ function App() {
           <button className="linkButton" onClick={() => scrollToSection('camp')}>冬夏令營</button>
         </div>
       </div>
-  
+
       <div className="content" style={{ paddingTop: '60px' }}>
         <div className={`fixedBox ${isSidebarVisible ? '' : 'hideSidebar'}`} style={{ backgroundColor: sidebarBgColor }}>
           <div className={`verticalText ${newTextAnimation}`}>{currentText}</div>
@@ -178,14 +175,14 @@ function App() {
         {/* <Honors height="800px" id="honors" /> */}
         {/* <Album height="800px" id="album" /> */}
         <Camp height="800px" id="camp" />
-        {/* <Contact height="800px" id="contact" /> */}
         <button onClick={scrollToTop} className="scrollToTopButton">
           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
             <path d="M30 25L20 15L10 25" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </button>
       </div>
-      <footer className="footer">
+      <Footer></Footer>
+      {/* <footer className="footer">
         <div className="footer-content">
           <div className="footer_left">
             <div className="footer_logo">
@@ -220,10 +217,10 @@ function App() {
             </ul>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
-  
+
 
 }
 

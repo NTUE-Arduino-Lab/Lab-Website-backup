@@ -91,7 +91,7 @@
 
 .photo-container .photo-box .text h4 {
   color: #FFF;
-  font-family: "GenSenRounded B";
+  font-family: 'Noto Sans TC';
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -100,7 +100,7 @@
 
 .photo-container .photo-box .text p {
   color: #FFF;
-  font-family: "GenSenRounded M";
+  font-family: 'Noto Sans TC';
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -151,7 +151,7 @@
   display: block;
   text-align: left;
   line-height: 1.5;
-    /* 締新增 */
+  /* 締新增 */
   margin-bottom: 8px;
 }
 
@@ -161,4 +161,3 @@
   opacity: 1;
   transition: all .5s ease-in-out;
 }
-

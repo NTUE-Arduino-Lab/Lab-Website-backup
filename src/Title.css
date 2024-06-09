@@ -59,7 +59,7 @@
 
 .title_text1 {
     color: #fff;
-    font-family: "GenSenRounded H";
+    font-family: 'Noto Sans TC';
     word-wrap: break-word;
     font-size: 46px;
     font-weight: 900;
@@ -69,7 +69,7 @@
 
 .title_text2 {
     color: #fff;
-    font-family: "GenSenRounded H";
+    font-family: 'Noto Sans TC';
     word-wrap: break-word;
     font-size: 46px;
     font-weight: 900;
@@ -79,7 +79,7 @@
 
 .title_text3 {
     color: #fff;
-    font-family: "GenSenRounded M";
+    font-family: 'Noto Sans TC';
     word-wrap: break-word;
     font-size: 23px;
     font-weight: 500;
@@ -201,7 +201,7 @@
     .title_text4 {
         display: inline;
         color: #fff;
-        font-family: "GenSenRounded TW";
+        font-family: 'Noto Sans TC';
         font-size: 14px;
         font-weight: 500;
         line-height: 21px;
