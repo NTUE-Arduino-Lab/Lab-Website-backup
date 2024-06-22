@@ -1,0 +1,47 @@
+name: Backup and Deploy to GitHub Pages
+
+# 您的備用庫主要分支名稱
+on:
+  push:
+    branches:
+      - main  
+
+jobs:
+  backup-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build React App
+        run: npm run build
+
+      - name: Setup Git
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+
+      - name: Push to Backup Repository
+        env:
+          BACKUP_REPO: https://github.com/NTUE-Arduino-Lab/Lab-Website-backup.git
+        run: |
+          git remote add backup $BACKUP_REPO
+          git push backup main --force
+
+      - name: Deploy to GitHub Pages
+        run: |
+          git checkout --orphan gh-pages
+          git rm -rf .
+          cp -r build/* .
+          git add .
+          git commit -m "Deploy to GitHub Pages"
+          git push backup gh-pages --force
