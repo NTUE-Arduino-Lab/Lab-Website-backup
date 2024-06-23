@@ -34,8 +34,9 @@ jobs:
       - name: Push to Backup Repository
         env:
           BACKUP_REPO: https://github.com/NTUE-Arduino-Lab/Lab-Website-backup.git
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          git remote add backup $BACKUP_REPO
+          git remote add backup https://${{ secrets.GH_TOKEN }}@github.com/NTUE-Arduino-Lab/Lab-Website-backup.git
           git push backup main --force
 
       - name: Deploy to GitHub Pages
