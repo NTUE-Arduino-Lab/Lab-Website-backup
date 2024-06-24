@@ -1,5 +1,6 @@
 ## 專案說明
 應用 React 搭建，串接 vercel ，我們的實驗室網頁。  
+網頁網址:https://hci-game-lab.com/
 此為協作用的主庫，而備份庫位置：https://github.com/NTUE-Arduino-Lab/Lab-Website-backup  
 運行用的vercel：https://hci-game-lab-website.vercel.app/  
 協作上都以分支進行，篤定後再傳入主支。  
