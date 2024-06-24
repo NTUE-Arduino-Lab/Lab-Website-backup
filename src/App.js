@@ -13,6 +13,15 @@ import './App.css'; // 確保你的樣式被正確導入
 import './Common.css'; // 通用樣式
 
 function App() {
+  useEffect(() => {
+    // Initialize Google Analytics
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-MVD7GCB815');
+  }, []);
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
