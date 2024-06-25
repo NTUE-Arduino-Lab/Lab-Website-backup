@@ -21,7 +21,7 @@ function Faculty() {
               </div>
               <div className='faculty_phone'>
                 <div className='faculty_icon2'></div>
-                <p className='faculty_text'>(02)2732-1104 #52472、63432</p>
+                <p className='faculty_text'>(02)2732-1104 #52472</p>
               </div>
               <div className='faculty_expertise'>
                 <div className='faculty_icon3'></div>
