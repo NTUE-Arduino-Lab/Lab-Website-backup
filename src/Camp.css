@@ -1,6 +1,18 @@
 #camp {
   background-color: #fff;
-  padding: 100px 0;
+  padding: 100px 0 350px;
+  position: relative;
+}
+
+#camp:after {
+  content: "";
+  width: 100%;
+  height: 330px;
+  background: url(../src/img/camp/campWaveBIG.png) no-repeat bottom center;
+  background-size: 100%;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
 }
 
 .photos {
@@ -160,4 +172,29 @@
 .photo-container.expanded.showText .photo-box .text p {
   opacity: 1;
   transition: all .5s ease-in-out;
+}
+
+@media (min-width: 1920px) {
+  #camp:after {
+    background: url(../src/img/camp/campWaveBIG.png) no-repeat top center;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 1440px) {
+  #camp:after {
+    height: 180px;
+    background: url(../src/img/camp/campWaveMD.png) no-repeat bottom center;
+    background-size: 100%;
+
+  }
+}
+
+@media (max-width: 767px) {
+  #camp:after {
+    height: 100px;
+    background: url(../src/img/camp/campWaveSM.png) no-repeat bottom center;
+    background-size: 100%;
+
+  }
 }
