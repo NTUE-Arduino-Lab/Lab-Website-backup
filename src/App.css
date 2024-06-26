@@ -400,6 +400,7 @@ footer:after {
   }
 
   footer:after {
+    max-width: none;
     width: 340px;
     height: 100px;
   }

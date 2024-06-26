@@ -1,4 +1,13 @@
 import React, { useState, useEffect } from 'react';
+// import Swiper core and required modules
+import { Navigation, Pagination } from 'swiper/modules';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import swiper_arrowP from './img/camp/arrow_prev.png';
+import swiper_arrowN from './img/camp/arrow_next.png';
 import './Camp.css';
 import CampData from './Camp.json';
 import campIMG01 from './img/camp/campIMG01.png';
@@ -22,12 +31,10 @@ const images = {
 
 const Camp = () => {
   const [photos, setPhotos] = useState([]);
-  const [expandedPhotoId, setExpandedPhotoId] = useState(4);
-  const [showTextPhotoId, setShowTextPhotoId] = useState(4);
+  const [swiperInstance, setSwiperInstance] = useState(null);
+  const [hideIndex, setHideIndex] = useState(4);
+  const [activeIndex, setActiveIndex] = useState(null);
 
-  // useEffect(() => {
-  //   setPhotos([...CampData]);
-  // }, []);
 
   useEffect(() => {
     // 將對應的圖片URL加入到CampData
@@ -38,47 +45,85 @@ const Camp = () => {
     setPhotos(updatedPhotos);
   }, []);
 
-  const handleImageClick = (id) => {
 
-    if (expandedPhotoId === id) {
-      setExpandedPhotoId(null); // 如果点击的是已展开的图片，则关闭
-    } else {
-      setExpandedPhotoId(id); // 否则，展开被点击的图片
-    }
+  //切換輪播時，卡片動畫
+  const slideChangeEvent = (swiper) => {
 
-    // Use setTimeout to simulate a delayed action
-    setTimeout(() => {
-      if (showTextPhotoId === id) {
-        setShowTextPhotoId(null); // 如果点击的是已展开的图片，则关闭
-      } else {
-        setShowTextPhotoId(id); // 否则，展开被点击的图片
-      }
+    setActiveIndex(null)
+    setHideIndex('hide')
+
+    setTimeout(() => { //過0.5秒在顯示文字
+      setActiveIndex(swiper.realIndex);
+      setHideIndex(null)
     }, 500);
+  }
+
+  //箭頭往前一項
+  const slidePrev = () => {
+    if (swiperInstance) {
+      swiperInstance.slidePrev();
+    }
   };
 
+  //箭頭往後一項
+  const slideNext = () => {
+    if (swiperInstance) {
+      swiperInstance.slideNext();
+    }
+  };
+
+
   return (
+
     <div id="camp">
       <div className='container'>
-        <div className="photos">
-          {photos.map((photo) => (
-            <div className={`photo-container ${expandedPhotoId === photo.id ? 'expanded' : ''} ${showTextPhotoId === photo.id ? 'showText' : ''}`} key={photo.id} onClick={() => handleImageClick(photo.id)}>
-              <div className='photo-box'>
-                <img
-                  src={photo.url}
-                  // alt={photo.id === 'blank' ? 'Transparent Placeholder' : `Photo ${photo.id}`}
-                  alt={photo.name} //無障礙處理，若真的無圖，顯示該營隊名稱
-                  className={expandedPhotoId === photo.id ? 'expanded' : ''}
-                />
-                <div className='text'>
-                  <h4>{photo.name}</h4>
-                  <p>{photo.desc}</p>
-                </div>
-              </div>
-            </div>
-          ))}
+        <div className='campBox'>
+          <Swiper
+            // install Swiper modules
+            modules={[Navigation, Pagination]}
+            slidesPerView={'auto'}
+            centeredSlides={true}
+            loop={true}
+            pagination={{ clickable: true }}
+            navigation={{ enabled: false }}
+            //swiper初始化時先存一個實例在SwiperInstance，讓箭頭後面能操作
+            onSwiper={(swiper) => setSwiperInstance(swiper)}
+            onSlideChange={slideChangeEvent}
+            className='campSwiper'
+          >
+            {photos.map((photo, index) => (
+
+              <SwiperSlide>
+                <div key={photo.id} className={`photo-container ${activeIndex === index ? 'showText' : ''} ${hideIndex === 'hide' ? 'hideText' : ''}`} >
+                  <div className='photo-box'>
+                    <img
+                      src={photo.url}
+                      // alt={photo.id === 'blank' ? 'Transparent Placeholder' : `Photo ${photo.id}`}
+                      alt={photo.name} //無障礙處理，若真的無圖，顯示該營隊名稱
+                    />
+                    <div className='text'>
+                      <h4>{photo.name}</h4>
+                      <p>{photo.desc}</p>
+                    </div>
+                  </div>
+                </div></SwiperSlide>
+
+            ))}
+
+          </Swiper>
+          {/* 自訂左右箭頭 */}
+          <div className="swiper-arrows">
+            <button className="arrow-prev" onClick={slidePrev}>
+              <img src={swiper_arrowP} alt="prev" />
+            </button>
+            <button className="arrow-next" onClick={slideNext}>
+              <img src={swiper_arrowN} alt="next" />
+            </button>
+          </div>
+
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 
