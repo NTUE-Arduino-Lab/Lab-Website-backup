@@ -2,7 +2,7 @@
   background-color: #fff;
   padding: 200px 0 240px;
   position: relative;
-  background: url(../src/img/camp/ufo_light.png)no-repeat bottom center;
+  background: url(../src/img/camp/ufo_light.svg)no-repeat bottom center;
   background-size: auto;
   background-position-y: 50px;
 }
@@ -11,7 +11,7 @@
   content: "";
   width: 210px;
   height: 160px;
-  background: url(../src/img/camp/ufo.png)no-repeat center center;
+  background: url(../src/img/camp/ufo.svg)no-repeat center center;
   background-size: 100%;
   position: absolute;
   top: 45px;
@@ -101,6 +101,7 @@
   background: none;
   position: absolute;
   z-index: 10;
+  cursor: pointer;
 }
 
 .swiper-arrows button.arrow-prev {

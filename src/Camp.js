@@ -6,8 +6,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-import swiper_arrowP from './img/camp/arrow_prev.png';
-import swiper_arrowN from './img/camp/arrow_next.png';
+import swiper_arrowP from './img/camp/arrow_prev.svg';
+import swiper_arrowN from './img/camp/arrow_next.svg';
 import './Camp.css';
 import CampData from './Camp.json';
 import campIMG01 from './img/camp/campIMG01.png';
@@ -55,7 +55,7 @@ const Camp = () => {
     setTimeout(() => { //過0.5秒在顯示文字
       setActiveIndex(swiper.realIndex);
       setHideIndex(null)
-    }, 500);
+    }, 400); //再快會影響效果
   }
 
   //箭頭往前一項
