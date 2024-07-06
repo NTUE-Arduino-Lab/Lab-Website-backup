@@ -38,10 +38,30 @@
 
 .arrow-left {
     cursor: pointer;
+    /*以下為避免選取時出現背景*/
+    -moz-user-select: none;
+    /* Firefox */
+    -webkit-user-select: none;
+    /* Chrome , Safari*/
+    -ms-user-select: none;
+    /* IE10 */
+    -khtml-user-select: none;
+    /* 古早瀏覽器 */
+    user-select: none;
 }
 
 .arrow-right {
     cursor: pointer;
+    /*以下為避免選取時出現背景*/
+    -moz-user-select: none;
+    /* Firefox */
+    -webkit-user-select: none;
+    /* Chrome , Safari*/
+    -ms-user-select: none;
+    /* IE10 */
+    -khtml-user-select: none;
+    /* 古早瀏覽器 */
+    user-select: none;
 }
 
 .placeholder {
@@ -130,6 +150,17 @@
     width: 120px;
     height: 120px;
     display: inline-block;
+
+    /*以下為避免選取時出現背景*/
+    -moz-user-select: none;
+    /* Firefox */
+    -webkit-user-select: none;
+    /* Chrome , Safari*/
+    -ms-user-select: none;
+    /* IE10 */
+    -khtml-user-select: none;
+    /* 古早瀏覽器 */
+    user-select: none;
 }
 
 .text-display-area {
