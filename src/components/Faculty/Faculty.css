@@ -23,7 +23,7 @@
 }
 
 .faculty_planet1 {
-    background: url(./img/faculty/planetForProfessorLeft1440.svg)no-repeat;
+    background: url(../../img/faculty/planetForProfessorLeft1440.svg)no-repeat;
     width: 288px;
     height: 180px;
     position: absolute;
@@ -58,7 +58,7 @@
 }
 
 .faculty_img1 {
-    background: url(./img/faculty/professorFAN1440.svg)no-repeat;
+    background: url(../../img/faculty/professorFAN1440.svg)no-repeat;
     width: 184px;
     height: 241px;
     position: absolute;
@@ -93,7 +93,7 @@
 }
 
 .faculty_icon1 {
-    background: url(./img/faculty/mail.svg);
+    background: url(../../img/faculty/mail.svg);
     width: 32px;
     height: 32px;
     background-size: 100%;
@@ -119,7 +119,7 @@
 }
 
 .faculty_icon2 {
-    background: url(./img/faculty/phone.svg);
+    background: url(../../img/faculty/phone.svg);
     width: 32px;
     height: 32px;
     background-size: 100%;
@@ -132,7 +132,7 @@
 }
 
 .faculty_icon3 {
-    background: url(./img/faculty/atom.svg);
+    background: url(../../img/faculty/atom.svg);
     width: 32px;
     height: 32px;
     background-size: 100%;
@@ -147,7 +147,7 @@
 }
 
 .faculty_planet2 {
-    background: url(./img/faculty/planetForProfessorRight1440.svg)no-repeat;
+    background: url(../../img/faculty/planetForProfessorRight1440.svg)no-repeat;
     width: 320px;
     height: 220px;
     position: absolute;
@@ -156,7 +156,7 @@
 }
 
 .faculty_img2 {
-    background: url(./img/faculty/professorYU1440.svg)no-repeat;
+    background: url(../../img/faculty/professorYU1440.svg)no-repeat;
     width: 184px;
     height: 241px;
     position: absolute;
@@ -172,7 +172,7 @@
 }
 
 .faculty_icon4 {
-    background: url(./img/faculty/linkExternal.svg);
+    background: url(../../img/faculty/linkExternal.svg);
     width: 32px;
     height: 32px;
     background-size: 100%;
@@ -213,7 +213,7 @@
     }
 
     .faculty_planet1 {
-        background: url(./img/faculty/planetForProfessorRight768.svg)no-repeat;
+        background: url(../../img/faculty/planetForProfessorRight768.svg)no-repeat;
         width: 140px;
         height: 112px;
         top: -60px;
@@ -236,7 +236,7 @@
     }
 
     .faculty_img1 {
-        background: url(./img/faculty/professorFAN768.svg)no-repeat;
+        background: url(../../img/faculty/professorFAN768.svg)no-repeat;
         width: 93px;
         height: 120px;
         right: 24px;
@@ -282,7 +282,7 @@
     }
 
     .faculty_planet2 {
-        background: url(./img/faculty/planetForProfessorLeft768.svg)no-repeat;
+        background: url(../../img/faculty/planetForProfessorLeft768.svg)no-repeat;
         width: 140px;
         height: 112px;
         top: 365px;
@@ -290,7 +290,7 @@
     }
 
     .faculty_img2 {
-        background: url(./img/faculty/professorYU768.svg)no-repeat;
+        background: url(../../img/faculty/professorYU768.svg)no-repeat;
         width: 93px;
         height: 120px;
         right: 24px;
@@ -334,7 +334,7 @@
     }
 
     .faculty_planet1 {
-        background: url(./img/faculty/planetForProfessorLeft768.svg)no-repeat;
+        background: url(../../img/faculty/planetForProfessorLeft768.svg)no-repeat;
         width: 140px;
         height: 112px;
         top: -60px;
@@ -357,7 +357,7 @@
     }
 
     .faculty_img1 {
-        background: url(./img/faculty/professorFAN768.svg)no-repeat;
+        background: url(../../img/faculty/professorFAN768.svg)no-repeat;
         width: 93px;
         height: 120px;
         right: 24px;
@@ -403,7 +403,7 @@
     }
 
     .faculty_planet2 {
-        background: url(./img/faculty/planetForProfessorRight768.svg)no-repeat;
+        background: url(../../img/faculty/planetForProfessorRight768.svg)no-repeat;
         width: 140px;
         height: 112px;
         top: 365px;
@@ -411,7 +411,7 @@
     }
 
     .faculty_img2 {
-        background: url(./img/faculty/professorYU768.svg)no-repeat;
+        background: url(../../img/faculty/professorYU768.svg)no-repeat;
         width: 93px;
         height: 120px;
         right: 24px;
@@ -454,7 +454,7 @@
     }
 
     .faculty_planet1 {
-        background: url(./img/faculty/planetForProfessorLeft768.svg)no-repeat;
+        background: url(../../img/faculty/planetForProfessorLeft768.svg)no-repeat;
         width: 140px;
         height: 112px;
         top: -60px;
@@ -477,7 +477,7 @@
     }
 
     .faculty_img1 {
-        background: url(./img/faculty/professorFAN768.svg)no-repeat;
+        background: url(../../img/faculty/professorFAN768.svg)no-repeat;
         width: 93px;
         height: 120px;
         right: 24px;
@@ -523,7 +523,7 @@
     }
 
     .faculty_planet2 {
-        background: url(./img/faculty/planetForProfessorRight768.svg)no-repeat;
+        background: url(../../img/faculty/planetForProfessorRight768.svg)no-repeat;
         width: 140px;
         height: 112px;
         top: 365px;
@@ -531,7 +531,7 @@
     }
 
     .faculty_img2 {
-        background: url(./img/faculty/professorYU768.svg)no-repeat;
+        background: url(../../img/faculty/professorYU768.svg)no-repeat;
         width: 93px;
         height: 120px;
         right: 24px;

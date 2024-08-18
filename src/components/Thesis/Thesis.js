@@ -1,14 +1,14 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './Thesis.css';
 import thesisData from './Thesis.json';
-import PlanetW from './img/PlanetW.svg';
-import PlanetB from './img/PlanetB.svg';
-import ArrowL from './img/ArrowL.svg';
-import ArrowL_A from './img/ArrowL_A.svg';
-import ArrowL_D from './img/ArrowL_D.svg';
-import ArrowR from './img/ArrowR.svg';
-import ArrowR_A from './img/ArrowR_A.svg';
-import ArrowR_D from './img/ArrowR_D.svg';
+import PlanetW from '../../img/PlanetW.svg';
+import PlanetB from '../../img/PlanetB.svg';
+import ArrowL from '../../img/ArrowL.svg';
+import ArrowL_A from '../../img/ArrowL_A.svg';
+import ArrowL_D from '../../img/ArrowL_D.svg';
+import ArrowR from '../../img/ArrowR.svg';
+import ArrowR_A from '../../img/ArrowR_A.svg';
+import ArrowR_D from '../../img/ArrowR_D.svg';
 
 function Thesis() {
   const [years, setYears] = useState([]);

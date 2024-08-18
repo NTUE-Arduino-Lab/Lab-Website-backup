@@ -1,10 +1,10 @@
 import React, { useEffect, useState, useCallback, useMemo } from 'react';
 import { Helmet } from 'react-helmet-async';
-import Title from './Title';
-import Faculty from './Faculty';
-import Thesis from './Thesis';
+import Title from './components/Title/Title';
+import Faculty from './components/Faculty/Faculty';
+import Thesis from './components/Thesis/Thesis';
 import Topics from './Topics';
-//import Honors from './Honors';
+import Honors from './components/Honors/Honors';
 //import Album from './Album'; // 假设 Album 是相簿组件
 import Camp from './Camp';
 import Footer from './Footer';
@@ -87,7 +87,7 @@ function App() {
       faculty: document.getElementById('faculty') ? document.getElementById('faculty').offsetTop : 0,
       thesis: document.getElementById('thesis') ? document.getElementById('thesis').offsetTop : 0,
       topics: document.getElementById('topics') ? document.getElementById('topics').offsetTop : 0,
-      //honors: document.getElementById('honors') ? document.getElementById('honors').offsetTop : 0,
+      honors: document.getElementById('honors') ? document.getElementById('honors').offsetTop : 0,
       //album: document.getElementById('album') ? document.getElementById('album').offsetTop : 0,
       camp: document.getElementById('camp') ? document.getElementById('camp').offsetTop : 0,
       // contact: document.getElementById('contact') ? document.getElementById('contact').offsetTop : 0,
@@ -109,15 +109,15 @@ function App() {
       setNewText('研究生論文');
       setSidebarBgColor(COLORS.oddSectionBackground);
       setIsSidebarVisible(true); // 隱藏側邊欄
-    } else if (scrollPosition >= positions.topics && scrollPosition < positions.camp) {//記得改回positions.honors
+    } else if (scrollPosition >= positions.topics && scrollPosition < positions.honors) {
       setNewText('研究領域');
       setSidebarBgColor(COLORS.evenSectionBackground);
       setIsSidebarVisible(true); // 隱藏側邊欄
-    } /*else if (scrollPosition >= positions.honors && scrollPosition < positions.album) {
+    } else if (scrollPosition >= positions.honors && scrollPosition < positions.camp) {//記得改回positions.album
       setNewText('榮譽榜');
       setSidebarBgColor(COLORS.oddSectionBackground);
       setIsSidebarVisible(true); // 隱藏側邊欄
-    } else if (scrollPosition >= positions.album && scrollPosition < positions.camp) {
+    } /*else if (scrollPosition >= positions.album && scrollPosition < positions.camp) {
       setNewText('相簿');
       setSidebarBgColor(COLORS.evenSectionBackground);
       setIsSidebarVisible(true); // 隱藏側邊欄
@@ -167,8 +167,8 @@ function App() {
         <div className={`links ${isMenuOpen ? 'show' : ''}`}>
           <button className="linkButton" onClick={() => scrollToSection('faculty')}>研究室介紹</button>
           <button className="linkButton" onClick={() => scrollToSection('topics')}>研究領域</button>
-          {/* <button className="linkButton" onClick={() => scrollToSection('honors')}>榮譽榜</button>
-          <button className="linkButton" onClick={() => scrollToSection('album')}>研究室活動</button>*/}
+          <button className="linkButton" onClick={() => scrollToSection('honors')}>榮譽榜</button>
+          {/* <button className="linkButton" onClick={() => scrollToSection('album')}>研究室活動</button>*/}
           <button className="linkButton" onClick={() => scrollToSection('camp')}>冬夏令營</button>
         </div>
       </div>
@@ -181,7 +181,7 @@ function App() {
         <Faculty height="700px" id="faculty" />
         <Thesis height="800px" id="thesis" />
         <Topics height="800px" id="topics" />
-        {/* <Honors height="800px" id="honors" /> */}
+        <Honors height="800px" id="honors" />
         {/* <Album height="800px" id="album" /> */}
         <Camp height="800px" id="camp" />
         <button onClick={scrollToTop} className="scrollToTopButton">

@@ -17,7 +17,7 @@
 }
 
 .title_bgm {
-    background: url(./img/keyvision/keyVisionBG1440.svg);
+    background: url(../../img/keyvision/keyVisionBG1440.svg);
     width: 961px;
     height: 961px;
     position: absolute;
@@ -27,7 +27,7 @@
 }
 
 .title_bgl {
-    background: url(./img/keyvision/keyVisionLeft1440.svg)no-repeat;
+    background: url(../../img/keyvision/keyVisionLeft1440.svg)no-repeat;
     background-position: bottom left;
     height: 700px;
     width: 648px;
@@ -37,7 +37,7 @@
 }
 
 .title_bgr {
-    background: url(./img/keyvision/keyVisionRight1440.svg)no-repeat;
+    background: url(../../img/keyvision/keyVisionRight1440.svg)no-repeat;
     background-position: top right;
     height: 700px;
     width: 648px;
@@ -92,7 +92,7 @@
 }
 
 .title_arrow {
-    background: url(./img/keyvision/KeyVisionArrow1440.svg);
+    background: url(../../img/keyvision/KeyVisionArrow1440.svg);
     width: 180px;
     height: 80px;
     transition: all 0.5s ease-in-out;
@@ -104,13 +104,13 @@
 
 @media (max-width: 1440px) {
     .title_bgm {
-        background: url(./img/keyvision/keyVisionBG768.svg);
+        background: url(../../img/keyvision/keyVisionBG768.svg);
         width: 681px;
         height: 681px;
     }
 
     .title_bgl {
-        background: url(./img/keyvision/keyVisionLeft768.svg)no-repeat;
+        background: url(../../img/keyvision/keyVisionLeft768.svg)no-repeat;
         background-position: bottom left;
         height: 640px;
         width: 400px;
@@ -118,7 +118,7 @@
     }
 
     .title_bgr {
-        background: url(./img/keyvision/keyVisionRight768.svg)no-repeat;
+        background: url(../../img/keyvision/keyVisionRight768.svg)no-repeat;
         background-position: top right;
         height: 640px;
         width: 400px;
@@ -151,7 +151,7 @@
     }
 
     .title_arrow {
-        background: url(./img/keyvision/KeyVisionArrow768.svg);
+        background: url(../../img/keyvision/KeyVisionArrow768.svg);
         width: 80px;
         height: 40px;
     }
@@ -159,13 +159,13 @@
 
 @media (max-width:768px) {
     .title_bgm {
-        background: url(./img/keyvision/keyVisionBG375.svg);
+        background: url(../../img/keyvision/keyVisionBG375.svg);
         width: 555px;
         height: 555px;
     }
 
     .title_bgl {
-        background: url(./img/keyvision/keyVisionLeft375.svg)no-repeat;
+        background: url(../../img/keyvision/keyVisionLeft375.svg)no-repeat;
         background-position: bottom left;
         height: 640px;
         width: 200px;
@@ -173,7 +173,7 @@
     }
 
     .title_bgr {
-        background: url(./img/keyvision/keyVisionRight375.svg)no-repeat;
+        background: url(../../img/keyvision/keyVisionRight375.svg)no-repeat;
         background-position: top right;
         height: 640px;
         width: 144px;
@@ -209,7 +209,7 @@
     }
 
     .title_arrow {
-        background: url(./img/keyvision/KeyVisionArrow375.svg);
+        background: url(../../img/keyvision/KeyVisionArrow375.svg);
         width: 80px;
         height: 40px;
     }

@@ -1,0 +1,876 @@
+.honors_title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 28px;
+}
+
+.honors_title_text {
+    color: #27165C;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 76.8px;
+}
+
+.honors_title_img {
+    background: url(../../img/honors/Honors_Title.svg)no-repeat;
+    background-position: center center;
+    height: 76px;
+    width: 704px;
+    background-size: 100%;
+    margin-top: -27px;
+}
+
+.honors_mainarea {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.honors_worksbox {
+    width: 1216px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.honors_workscard {
+    width: 592px;
+    height: 520px;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 12px;
+    margin-bottom: 32px;
+    position: relative;
+}
+
+.honors_awards {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: #DADADA 0.3px solid;
+    border-radius: 99px;
+    position: absolute;
+    padding: 2px 16px;
+    top: 24px;
+    right: 24px;
+    display: flex;
+}
+
+.honors_awards_icon {
+    background: url(../../img/honors/trophy.svg)no-repeat;
+    background-position: center center;
+    height: 24px;
+    width: 24px;
+    background-size: 100%;
+    margin-right: 12px;
+}
+
+.honors_awards_text {
+    flex: 1;
+    color: #171819;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.works_mainImgBox {
+    width: 568px;
+    height: 420px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.works_mainImg {
+    width: 568px;
+    /*以下為避免選取時出現背景*/
+    -moz-user-select: none;
+    /* Firefox */
+    -webkit-user-select: none;
+    /* Chrome , Safari*/
+    -ms-user-select: none;
+    /* IE10 */
+    -khtml-user-select: none;
+    /* 古早瀏覽器 */
+    user-select: none;
+}
+
+.works_workName {
+    color: #171819;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    padding-top: 8px;
+}
+
+.works_member {
+    color: #171819;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+}
+
+  
+.show_more_btn,
+.show_less_btn {
+    width: 72px;/*200-128*/
+    color: #27165C;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    display: block;
+    border: #27165C 2px solid;
+    border-radius: 12px;
+    margin: auto;
+    padding: 16px 64px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.show_more_btn:hover,
+.show_less_btn:hover,
+.show_more_btn:focus,
+.show_less_btn:focus {
+    color: #FFF;
+    background-color: #27165C;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all ease-in-out .4s;
+}
+
+/* Modal animation */
+@keyframes popIn {
+    0% {
+        transform: scale(0.99);
+        opacity: 0;
+    }
+    70% {
+        transform: scale(1.01);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Modal styles */
+.honors_modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 100; /* 蓋過側標層級 */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+  
+.honors_modal_content {
+    background-color: #fff;
+    margin-top: 70px;
+    padding: 36px;
+    border-radius: 36px;
+    width: 1221px;/*原1343-36-36，修改為更小尺寸(-50px)避免撞到側標*/
+    height: 480px;/*552-36-36*/
+    display: flex;
+    transform: translateY(0);
+    animation: popIn 0.3s ease-out forwards;
+    opacity: 1;
+    transition: none;
+}
+  
+.honors_modal_close {
+    color: #004B8F;
+    background-color: rgba(222, 239, 254, 1);
+    height: 72px;
+    width: 72px;
+    font-size: 48px;
+    font-weight: bold;
+    position: fixed;
+    margin-top: -12px;
+    margin-left: 1161px;/*1343-24-72-36-50*/
+    border-radius: 16px;
+    /*置中*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.honors_modal_close:hover,
+.honors_modal_close:focus {
+    color: #DEEFFE;
+    background-color: #004B8F;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all ease-in-out .4s;
+}
+
+.honors_modal_left {
+    padding-right: 36px;
+}
+
+.honors_modal_carousel {
+    width: 618px;
+    position: relative;
+}
+
+.honors_modal_image_container {
+    display: flex;
+    height: 458px;
+    border: 1px solid #EDEEEF;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.honors_modal_otherImg {
+    height: 100%;
+    width: 100%;
+}
+  
+.honors_modal_carousel_indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+  
+.honors_modal_carousel_indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #EDEEEF;
+    margin: 0 5px;
+    cursor: pointer;
+}
+  
+.honors_modal_carousel_indicator.active {
+    background-color: #7EC0FC;
+}
+
+.honors_modal_right {
+    padding-top: 131px;/*167-36*/
+}
+
+.honors_modal_right_top {
+    height: 40px;
+    display: flex;
+    justify-content: left;
+}
+
+.honors_modal_workName {
+    color: #171819;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    word-wrap: break-word;
+    padding-right: 12px;
+}
+
+.honors_modal_video {
+    background: url(../../img/honors/Play_circle.svg)no-repeat;
+    background-position: center center;
+    height: 36px;
+    width: 36px;
+    background-size: 100%;
+    margin-top: 4px;
+}
+
+.honors_modal_video:hover,
+.honors_modal_video:focus {
+    background: url(../../img/honors/Play_circle_hover.svg)no-repeat;
+    background-position: center center;
+    height: 36px;
+    width: 36px;
+    background-size: 100%;
+    margin-top: 4px;
+}
+
+.honors_modal_right_mid {
+    padding-top: 12px;
+    height: 140px;
+    padding-bottom: 22px;
+}
+
+.honors_modal_intro {
+    color: #171819;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 34.5px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.honors_line {
+    background-color: #000000;
+    height: 1px;
+    width: 100%;
+}
+
+.honors_author {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 4px;
+    padding-bottom: 32px;
+}
+
+.honors_modal_text1 {
+    color: #7EC0FC;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.honors_modal_text2 {
+    width: 520px;
+    color: #171819;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+}
+
+.honors_honors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 4px;
+}
+
+.honors_modal_prev {
+    background: url(../../img/honors/arrow_left_large.svg)no-repeat;
+    background-position: center center;
+    height: 64px;
+    width: 64px;
+    background-size: 100%;
+    position: absolute;
+    top: 50%;
+    border: none;
+    cursor: pointer;
+    margin-left: -110px;
+}
+
+.honors_modal_next {
+    background: url(../../img/honors/arrow_right_large.svg)no-repeat;
+    background-position: center center;
+    height: 64px;
+    width: 64px;
+    background-size: 100%;
+    position: absolute;
+    top: 50%;
+    border: none;
+    cursor: pointer;
+    margin-left: 1267px;
+}
+
+.honors_modal_prev:hover,
+.honors_modal_prev:focus {
+    transform: translateX(-5px);
+    transition: all ease-in-out .5s;
+}
+
+.honors_modal_next:hover,
+.honors_modal_next:focus {
+    transform: translateX(5px);
+    transition: all ease-in-out .5s;
+}
+
+@media (max-width: 1440px) {
+    .honors_worksbox {
+        width: 1130px;
+    }
+
+    .honors_workscard {
+        width: 550px;
+    }
+
+    .honors_awards {
+        max-width: 468px;
+    }
+
+    .honors_awards_text {
+        white-space: nowrap;        /* 禁止換行 */
+        overflow: hidden;           /* 隱藏超出部分 */
+        text-overflow: ellipsis;    /* 使用省略號表示被隱藏的文本 */
+    }
+
+    .works_mainImgBox {
+        width: 526px;
+        height: 388px;
+    }
+
+    .works_mainImg {
+        width: 526px;
+    }
+
+    /* Modal styles */
+    .honors_modal_content {
+        width: 1100px;
+    }
+
+    .honors_modal_close {
+        margin-top: -12px;
+        margin-left: 1040px;
+    }
+
+    .honors_modal_left {
+        padding-right: 20px;
+    }
+
+    .honors_modal_right {
+        width: 466px;
+        padding-top: 110px
+    }
+
+    .honors_modal_intro {
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    .honors_modal_text2 {
+        width: 420px;
+    }
+
+    .honors_modal_prev {
+        margin-left: -110px;
+        left: unset;
+    }
+    
+    .honors_modal_next {
+        margin-left: 1146px;
+        right: unset;
+    }
+}
+
+@media (max-width: 1280px) {
+    .honors_worksbox {
+        max-width: 800px;
+        min-width: 591px;
+        width: 75%;
+        flex-wrap: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .honors_workscard {
+        width: 100%;
+        min-width: 591px;
+        max-width: 718px;
+    }
+
+    .honors_awards {
+        max-width: 544px;
+    }
+
+    .works_mainImgBox {
+        width: 100%;
+        height: 420px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .works_mainImg {
+        width: 100%;
+        min-width: 567px;
+        min-height: 420px;
+    }
+    
+    /* Modal styles */
+    .honors_modal_content {
+        width: 550px;
+        height: 700px;
+        margin-top: 65px;
+        padding: 24px;
+        flex-direction: column;
+    }
+
+    .honors_modal_close {
+        height: 56px;
+        width: 56px;
+        font-size: 32px;
+        margin-top: -24px;
+        margin-left: 590px;
+        z-index: 5;
+    }
+
+    .honors_modal_left {
+        padding-right: 0px;
+    }
+
+    .honors_modal_carousel {
+        width: 550px;
+        position: relative;
+    }
+    
+    .honors_modal_image_container {
+        height: 350px;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+    }
+
+    .honors_modal_otherImg {
+        height: 400px;
+        width: 100%;
+
+    }
+
+    .honors_modal_right {
+        padding-top: 12px;
+        width: 550px;
+    }
+
+    .honors_modal_right_mid {
+        height: 110px;
+    }
+
+    .honors_modal_text2 {
+        width: 500px;
+    }
+
+    .honors_modal_prev {
+        margin-left: -98px;
+        left: unset;
+    }
+    
+    .honors_modal_next {
+        margin-left: 584px;
+        right: unset;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .honors_title {
+        padding-top: 34px;/*54-20padding*/
+    }
+
+    .honors_title_text {
+        color: #27165C;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 120%;
+    }
+
+    .honors_title_img {
+        background: url(../../img/honors/Honors_Title_S.svg)no-repeat;
+        background-position: center center;
+        height: 65px;
+        width: 327px;
+        background-size: 100%;
+        margin-top: -27px;
+    }
+
+    .honors_mainarea {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .honors_worksbox {
+        max-width: unset;
+        min-width: 303px;
+        width: 75%;
+    }
+
+    .honors_workscard {
+        max-width: unset;
+        min-width: unset;
+        width: 100%;
+        height: unset;
+        margin-bottom: 16px;
+    }
+
+    .honors_awards {
+        background-color: #FFDA54;
+        border: #FFD230 0.3px solid;
+        border-radius: 99px;
+        max-width: unset;
+        height: 30px;
+        width: 30px;
+        padding: 0px 0px;
+        top: 24px;
+        right: 28px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .honors_awards_icon {
+        background: url(../../img/honors/trophy_S2.svg)no-repeat;
+        background-position: center center;
+        height: 18px;
+        width: 18px;
+        background-size: contain;
+        display: inline-block;
+        vertical-align: middle; 
+        margin-right: unset;
+    }
+
+    .honors_awards_text {
+        font-size: 13px;
+        line-height: 150%;
+        display: none;
+    }
+
+    .works_mainImgBox {
+        max-width: unset;
+        min-width: unset;
+        width: 100%;
+        max-height: 300px;
+        height: auto;
+    }
+
+    .works_mainImg {
+        max-width: unset;
+        min-width: unset;
+        min-height:unset;
+        width: 100%;
+        height: auto;
+    }
+
+    .works_workName {
+        font-size: 23px;
+        line-height: 150%;
+        padding-top: unset;
+    }
+
+    .works_member {
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    .show_more_btn,
+    .show_less_btn {
+        width: 72px;
+        border-radius: 10px;
+        padding: 14px 46px;/*扣2px框*/
+        margin-top: 20px;
+    }
+
+    /* Modal styles */
+    .honors_modal {
+        align-items: end;
+    }
+
+    .honors_modal_content {
+        margin-top: unset;
+        padding: 16px 24px;
+        padding-bottom: 80px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 100%;
+        height: 604px;
+        animation: slideUp 0.5s ease-out forwards;
+    }
+
+    .honors_modal_close {
+        background-color: #DEEFFE;
+        height: 48px;
+        width: calc(30% - 10px);
+        font-size: 20px;
+        position: fixed;
+        margin-top: 612px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+    }
+
+    .honors_modal_left {
+        padding-right: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .honors_modal_mobileline {
+        background-color: #777A7E;
+        width: 64px;
+        height: 5px;
+        border-radius: 100px;
+        margin-bottom: 16px;
+    }
+
+    .honors_modal_carousel {
+        width: 100%;
+    }
+
+    .honors_modal_image_container {
+        max-height: 378px;
+        height: auto;
+        border: unset;
+        border-radius: 12px;
+    }
+
+    .honors_modal_otherImg {
+        height: auto;
+        width: 100%;
+    }
+
+    .honors_modal_carousel_indicators {
+        margin-top: 8px;
+    }
+
+    .honors_modal_carousel_indicator {
+        width: 6px;
+        height: 6px;
+        margin: 0 4px;
+    }
+
+    .honors_modal_right {
+        padding-top: 8px;
+        padding-right: 6px;
+        width: 100%;
+        flex-grow: 1;
+        overflow-y: auto;
+    }
+
+    .honors_modal_right::-webkit-scrollbar {
+        width: 6px;
+        /* 滾動條寬度 */
+    }
+    
+    /* 滾動條滑塊 */
+    .honors_modal_right::-webkit-scrollbar-thumb {
+        background: #DEEFFE;
+        /* 滑塊顏色 */
+        border-radius: 4px;
+        /* 滑塊圓角 */
+    }
+    
+    /* 滾動條軌道 */
+    .honors_modal_right::-webkit-scrollbar-track {
+        background: #f0f0f0;
+        /* 軌道顏色 */
+        border-radius: 4px;
+        /* 軌道圓角 */
+        margin-top: 10px;
+    }
+
+    .honors_modal_right_top {
+        height: 24px;
+    }
+
+    .honors_modal_workName {
+        font-size: 16px;
+        line-height: 150%;
+        padding-right: 8px;
+    }
+
+    .honors_modal_video {
+        height: 24px;
+        width: 24px;
+        margin-top: 1px;
+    }
+
+    .honors_modal_video:hover,
+    .honors_modal_video:focus {
+    background: url(../../img/honors/Play_circle_hover.svg)no-repeat;
+    background-position: center center;
+    height: 24px;
+    width: 24px;
+    background-size: 100%;
+    margin-top: 1px;
+}
+
+    .honors_modal_right_mid {
+        padding-top: 8px;
+        height: unset;
+        padding-bottom: 16px;
+    }
+
+    .honors_modal_intro {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 150%;
+        height: 65px;
+    }
+
+    .honors_modal_right_bottom {
+        
+    }
+
+    .honors_author {
+        padding-bottom: 16px;
+    }
+
+    .honors_modal_text1 {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .honors_modal_text2 {
+        width: calc(100% - 35px);
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .honors_modal_prev {
+        background: url(../../img/honors/arrow_left_S.svg)no-repeat;
+        background-position: center center;
+        height: 48px;
+        width: calc(30% - 10px);
+        position: fixed;
+        top: unset;
+        margin-top: 612px;
+        margin-left: unset;
+        left: 24px;
+        background-color: #DEEFFE;
+        border-radius: 8px;
+    }
+    
+    .honors_modal_next {
+        background: url(../../img/honors/arrow_right_S.svg)no-repeat;
+        background-position: center center;
+        height: 48px;
+        width: calc(30% - 10px);
+        position: fixed;
+        top: unset;
+        margin-top: 612px;
+        margin-left: unset;
+        right: 24px;
+        background-color: #DEEFFE;
+        border-radius: 8px;
+    }
+
+    .honors_modal_prev:hover,
+    .honors_modal_prev:focus {
+        background: url(../../img/honors/arrow_left_S2.svg)no-repeat;
+        background-position: center center;
+        background-color: #004B8F;
+        cursor: pointer;
+        transform: unset;
+        transition: all ease-in-out .4s;
+    }
+
+    .honors_modal_next:hover,
+    .honors_modal_next:focus {
+        background: url(../../img/honors/arrow_right_S2.svg)no-repeat;
+        background-position: center center;
+        background-color: #004B8F;
+        cursor: pointer;
+        transform: unset;
+        transition: all ease-in-out .4s;
+    }
+}
