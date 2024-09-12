@@ -50,8 +50,8 @@
   left: 0;
   right: 0;
   /* 使header水平居中 */
-  z-index: 1000;
-  /* 确保header在最上层 */
+  z-index: 99;
+  /* 确保header在pop視窗(50)以外時間在最上层 */
 }
 
 .logo {
